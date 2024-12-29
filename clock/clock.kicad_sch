@@ -1,5 +1,51 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "165d7bf5-5b8e-4091-8837-27542310d8a2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 81.28 63.5)
+		(size 31.75 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdcbf411-2ada-4d1d-b9a8-5a502b2414a0")
+		(property "Sheetname" "and-gate"
+			(at 81.28 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../gates/and-gate.kicad_sch"
+			(at 81.28 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "clock"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

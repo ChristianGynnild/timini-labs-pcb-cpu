@@ -789,6 +789,12 @@
 		)
 		(instances
 			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "R30")
 					(unit 1)
@@ -875,6 +881,12 @@
 		)
 		(instances
 			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "R29")
 					(unit 1)
@@ -958,6 +970,12 @@
 			(uuid "78b1fe09-bc2c-464f-8aa1-a01c679c8bc2")
 		)
 		(instances
+			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "#PWR032")
@@ -1077,6 +1095,12 @@
 		)
 		(instances
 			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "Q17")
 					(unit 1)
@@ -1163,6 +1187,12 @@
 		)
 		(instances
 			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "R28")
 					(unit 1)
@@ -1246,6 +1276,12 @@
 			(uuid "59e06a88-0b56-4238-be17-b87284e1b705")
 		)
 		(instances
+			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "#PWR031")
@@ -1364,6 +1400,12 @@
 			(uuid "0e020ff8-e223-4fdb-a685-9d5a08a818d8")
 		)
 		(instances
+			(project "half-adder"
+				(path "/165d7bf5-5b8e-4091-8837-27542310d8a2/bdcbf411-2ada-4d1d-b9a8-5a502b2414a0"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "Q18")
