@@ -736,7 +736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e22b2e5-3065-4f44-8266-ea5c2b10ad35")
-		(property "Reference" "R15"
+		(property "Reference" "R30"
 			(at 115.57 111.7599 0)
 			(effects
 				(font
@@ -806,6 +806,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -818,7 +824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a71ff6c-19e3-40a3-beb8-7eb631ab352d")
-		(property "Reference" "R14"
+		(property "Reference" "R29"
 			(at 96.52 82.55 90)
 			(effects
 				(font
@@ -886,6 +892,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -898,7 +910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b85a8c1-342b-4e26-aaae-c82e9972a251")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 113.03 132.08 0)
 			(effects
 				(font
@@ -961,6 +973,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1076,6 +1094,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1088,7 +1112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884f64ad-65ac-4bdd-83fd-0b203192185a")
-		(property "Reference" "R13"
+		(property "Reference" "R28"
 			(at 96.52 66.04 90)
 			(effects
 				(font
@@ -1156,6 +1180,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1168,7 +1198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9adaf059-d3e4-4fa0-97f5-145ec435821b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR031"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -1231,6 +1261,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1343,6 +1379,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
 					(reference "Q14")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q18")
 					(unit 1)
 				)
 			)

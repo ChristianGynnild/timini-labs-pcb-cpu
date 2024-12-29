@@ -854,6 +854,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -924,6 +930,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -991,6 +1003,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1066,6 +1084,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1135,6 +1159,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1242,6 +1272,12 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1343,6 +1379,12 @@
 				)
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/aa2ffd02-03c7-43f5-905d-233d00be0633/8e657cf9-09ea-4d19-97ba-111b741f01c5/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
