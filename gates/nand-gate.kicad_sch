@@ -126,53 +126,32 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC547"
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at -2.54 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BC547"
-				(at 5.08 0 0)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 63.5 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -180,7 +159,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "Sim.Device" "NPN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,13 +186,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC547_0_1"
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -217,6 +232,30 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -271,8 +310,8 @@
 					)
 				)
 			)
-			(symbol "BC547_1_1"
-				(pin passive line
+			(symbol "NPN_1_1"
+				(pin open_collector line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -292,7 +331,7 @@
 				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -308,7 +347,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin open_emitter line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -688,6 +727,110 @@
 		(uuid "e9e36703-87c5-4c82-b68e-d07f555be873")
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 92.71 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3985fa8e-0bbc-48fd-b368-147ff5524c76")
+		(property "Reference" "Q5"
+			(at 97.79 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 97.79 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dd395a1-90d8-4ddc-86b9-334785492a1a")
+		)
+		(pin "2"
+			(uuid "4db83f9c-b790-4db4-8f98-1965a363ad31")
+		)
+		(pin "3"
+			(uuid "a6919dae-a1c9-4252-8aca-ed14ba0a6c22")
+		)
+		(instances
+			(project ""
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 77.47 78.74 90)
 		(unit 1)
@@ -697,7 +840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43ce1bc3-087a-401b-9f82-8117e49479b8")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 77.47 72.39 90)
 			(effects
 				(font
@@ -741,21 +884,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "68479cc3-f4c1-46d6-b63f-46f7ba3e718b")
+			(uuid "3fd339d4-3c98-48a9-adc3-4a68c8bbf246")
 		)
 		(pin "2"
-			(uuid "3ab0c6c9-1088-4672-a752-1f3623e9e4c8")
+			(uuid "880468bf-2b4b-4b32-8af1-d0bcef105308")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "R?")
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R11")
 					(unit 1)
 				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "R1")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -771,7 +912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6919bdd7-9f51-43ec-9025-2513da98ce2c")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 76.2 88.9 90)
 			(effects
 				(font
@@ -815,21 +956,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6adae90c-355f-41d0-ad93-4282db9aeaef")
+			(uuid "83836507-ff57-462e-b737-d41c7ba5f7b7")
 		)
 		(pin "2"
-			(uuid "4d3ebd55-8ba9-4eaa-8091-d3d5a4be4899")
+			(uuid "4fca978d-3e1f-4726-961e-2350f37050e8")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "R?")
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R10")
 					(unit 1)
 				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "R2")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -845,7 +984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70f38630-8d13-451d-b3b9-000d86a71405")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -890,28 +1029,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c00d90f-b38a-4a22-9a93-62261e61a0c0")
+			(uuid "e3e3fbd9-3c17-4721-aa0a-33306c989f8a")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR04")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "#PWR020")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "#PWR?")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -927,7 +1054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98820efa-ea9a-4382-8640-fa973d4b7286")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR019"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -972,28 +1099,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b86bc06-3ced-4618-a194-3067e71f690f")
+			(uuid "c5196980-3c9a-45ef-8372-e76e0c9d7c93")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR03")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "#PWR019")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "#PWR?")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -1009,7 +1124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1239462-af94-4a9c-a2c2-a6e75b71b650")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 97.79 59.6899 0)
 			(effects
 				(font
@@ -1055,38 +1170,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a01bca9-f6f2-484b-95d4-572ae5fc60bb")
+			(uuid "25049ff6-f0e6-4e87-ae22-e30e135a540c")
 		)
 		(pin "2"
-			(uuid "76574ad6-c468-493b-a92b-cd8e742e833b")
+			(uuid "b870be2d-47c5-4605-965c-1f21f215b817")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "R4")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R12")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "R?")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC547")
+		(lib_id "Simulation_SPICE:NPN")
 		(at 92.71 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1094,9 +1197,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9f14054-2345-49ed-bf56-d8759e9c54b8")
-		(property "Reference" "Q?"
-			(at 97.79 93.98 0)
+		(uuid "c7255030-44da-4892-be69-eb2755451f7b")
+		(property "Reference" "Q6"
+			(at 97.79 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,8 +1207,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC547"
-			(at 97.79 96.52 0)
+		(property "Value" "NPN"
+			(at 97.79 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,28 +1216,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 97.79 97.155 0)
+		(property "Footprint" ""
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 			(at 92.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Sim.Device" "NPN"
 			(at 92.71 95.25 0)
 			(effects
 				(font
@@ -1143,135 +1252,44 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "e9b56876-34a5-410f-8d86-e9a31b0f2e6f")
+		(property "Sim.Type" "GUMMELPOON"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "c9cfd962-1752-44a3-9736-44967f1e2024")
+			(uuid "6cc9ecbc-499e-4f89-8d85-af8ae502eb80")
+		)
+		(pin "1"
+			(uuid "02461ffb-7634-46fd-aed9-df0b2d97802d")
 		)
 		(pin "3"
-			(uuid "72b37631-7d04-4159-a29a-ef4d78b2252d")
+			(uuid "fa925648-dfa7-4d3d-856f-eeff441c0f6e")
 		)
 		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "Q?")
+			(project ""
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+					(reference "Q6")
 					(unit 1)
 				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
 					(reference "Q10")
 					(unit 1)
 				)
 			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 92.71 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f929dc21-54cb-485f-8120-16f838bfd9f1")
-		(property "Reference" "Q?"
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 97.79 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 97.79 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 92.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0882a710-0596-483e-a241-04ffbacd67e7")
-		)
-		(pin "2"
-			(uuid "641093ac-a04c-41f0-bdae-e1cacc118edb")
-		)
-		(pin "3"
-			(uuid "903cf71a-706b-490a-b2ed-0d41e784b344")
-		)
-		(instances
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-			(project "nand-gate"
-				(path "/ba623dc1-de32-4eb9-8955-a8bde86e36ce"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

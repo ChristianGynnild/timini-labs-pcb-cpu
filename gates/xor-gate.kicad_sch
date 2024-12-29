@@ -261,7 +261,7 @@
 				)
 				(justify right)
 			)
-			(uuid "3be76e73-b5df-4921-9496-f5fb0391d397")
+			(uuid "b4c5e037-800b-4b42-8f4e-3d1ddf434309")
 		)
 		(pin "B" input
 			(at 60.96 128.27 180)
@@ -271,7 +271,7 @@
 				)
 				(justify left)
 			)
-			(uuid "b17c6335-c817-4c30-a970-9711ee6dff2a")
+			(uuid "8d86c3a5-97ee-41d6-ae18-0cd2d15ada30")
 		)
 		(pin "A" input
 			(at 60.96 119.38 180)
@@ -281,20 +281,15 @@
 				)
 				(justify left)
 			)
-			(uuid "3f048811-69cd-49ae-98c3-2252e5bdd957")
+			(uuid "387cb8b1-2678-405f-8a63-ca69c22386c3")
 		)
 		(instances
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e"
-					(page "4")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225"
+					(page "5")
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad"
-					(page "7")
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177"
-					(page "3")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3"
+					(page "8")
 				)
 			)
 		)
@@ -337,7 +332,7 @@
 				)
 				(justify left)
 			)
-			(uuid "5a12a48e-c7cb-4002-b18c-81f7362f89bf")
+			(uuid "dcc8d468-88f4-42fd-b40e-d80b99713640")
 		)
 		(pin "A" input
 			(at 60.96 69.85 180)
@@ -347,7 +342,7 @@
 				)
 				(justify left)
 			)
-			(uuid "a3b7e76e-789f-4149-a822-16d2cdde66cb")
+			(uuid "3aa8760a-d4cd-4256-bd0d-54c142687b94")
 		)
 		(pin "OUTPUT" output
 			(at 127 76.2 0)
@@ -357,20 +352,15 @@
 				)
 				(justify right)
 			)
-			(uuid "aedce5b6-a78f-4166-8e58-1a426371d610")
+			(uuid "2e1300af-e60a-4eef-ba73-85f86b0aef6e")
 		)
 		(instances
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e"
-					(page "3")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225"
+					(page "4")
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3"
 					(page "9")
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177"
-					(page "2")
 				)
 			)
 		)
@@ -413,7 +403,7 @@
 				)
 				(justify right)
 			)
-			(uuid "66322339-cc63-47f6-91fb-a50c7d02de90")
+			(uuid "c39bb9ca-1f03-44da-812d-b76763d56a4c")
 		)
 		(pin "B" input
 			(at 165.1 101.6 180)
@@ -423,7 +413,7 @@
 				)
 				(justify left)
 			)
-			(uuid "e35a269a-816e-4b09-ab97-7b18082779df")
+			(uuid "bde7f589-ea79-4614-ba7e-e5b57fb6b991")
 		)
 		(pin "A" input
 			(at 165.1 92.71 180)
@@ -433,27 +423,17 @@
 				)
 				(justify left)
 			)
-			(uuid "2e495651-0925-4cda-bafa-a3a0dd46bf10")
+			(uuid "6f9e9ffc-f311-42ce-9c87-8dccae5a2af9")
 		)
 		(instances
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e"
-					(page "5")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225"
+					(page "6")
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad"
-					(page "8")
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177"
-					(page "4")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3"
+					(page "10")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

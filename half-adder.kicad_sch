@@ -468,247 +468,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NPN"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 63.5 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "GUMMELPOON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=C 2=B 3=E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NPN_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.27) (xy 2.794 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NPN_1_1"
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:VDC"
 			(pin_numbers hide)
 			(pin_names
@@ -1397,94 +1156,16 @@
 		)
 	)
 	(junction
-		(at 146.05 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0860950e-6337-413c-a895-78af897c5303")
-	)
-	(junction
-		(at 38.1 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b1abce8-fb4c-4d21-934b-57f2bd84f805")
-	)
-	(junction
 		(at 38.1 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103c5a5b-eee2-4793-9fd5-54b7b38a17f9")
 	)
 	(junction
-		(at 67.31 58.42)
+		(at 38.1 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "13b28837-e3b9-4d89-893a-c004ab03f5da")
-	)
-	(junction
-		(at 58.42 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2583e5dc-e074-437e-93d7-9ccea90a188d")
-	)
-	(junction
-		(at 120.65 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a3faf96-70ce-4b37-aae5-9c3d41409dc3")
-	)
-	(junction
-		(at 91.44 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37b9e7f0-2648-481c-b184-e65385e2fe44")
-	)
-	(junction
-		(at 224.79 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ca937b8-af98-4a26-b661-f596d40bd72b")
-	)
-	(junction
-		(at 137.16 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ecd27e9-0528-4322-a126-c8eeeed6ba19")
-	)
-	(junction
-		(at 232.41 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4300197b-3fd9-46a9-b58b-11b4f538580e")
-	)
-	(junction
-		(at 52.07 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "503d08ba-e23f-470b-bc2b-96ac94155284")
-	)
-	(junction
-		(at 74.93 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5198a6cf-2546-4b52-acc5-de39dc8d344d")
-	)
-	(junction
-		(at 153.67 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5244ec06-c302-40c7-bad6-241cbea7c754")
-	)
-	(junction
-		(at 100.33 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54322a80-93a3-4915-a0fd-d102bf4777d6")
-	)
-	(junction
-		(at 30.48 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "565ebfe6-3b1d-4c25-ba3d-2da4e06fb8e5")
+		(uuid "563ec2b8-17a0-49e0-a874-a33aaa6f52d8")
 	)
 	(junction
 		(at 25.4 139.7)
@@ -1493,58 +1174,10 @@
 		(uuid "596ce1d2-681d-4a3c-bd01-ed3159c6ec10")
 	)
 	(junction
-		(at 52.07 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b421fe5-d6fb-4218-a150-d62b1d6cf894")
-	)
-	(junction
-		(at 176.53 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "616007cc-73e9-4cfd-882c-59c09236f577")
-	)
-	(junction
 		(at 30.48 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64ab4241-f8a7-4fee-8b1f-c2e7b8cd8fcb")
-	)
-	(junction
-		(at 146.05 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e2cb390-e9a7-4309-9bb8-e359dde5dbf4")
-	)
-	(junction
-		(at 38.1 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81581511-2d4b-4be7-96e5-cc9c24ce4d32")
-	)
-	(junction
-		(at 146.05 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8388d12e-20d4-4374-a077-2eb3ef2cf138")
-	)
-	(junction
-		(at 187.96 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fc4f98d-a918-4a59-aaff-d0d029c7250e")
-	)
-	(junction
-		(at 137.16 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91f24083-14b1-40ff-95fe-7095fc490393")
-	)
-	(junction
-		(at 224.79 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "997233a3-2f0c-4185-9436-6bb8a4e841f3")
 	)
 	(junction
 		(at 25.4 120.65)
@@ -1553,22 +1186,10 @@
 		(uuid "9c0e2ff7-b32c-4cc2-81d0-0b1d7da0f93e")
 	)
 	(junction
-		(at 171.45 76.2)
+		(at 120.65 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ade838e3-bd04-43d1-a9f7-5a0ce7cdeed4")
-	)
-	(junction
-		(at 153.67 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2c48f1e-7570-4083-afb5-6f595dba4e41")
-	)
-	(junction
-		(at 176.53 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1160577-2e90-46e7-bffa-4ae6b5f85502")
+		(uuid "ae51c4cb-1ee5-4ad7-b14d-59c39ab2ff00")
 	)
 	(junction
 		(at 30.48 92.71)
@@ -1577,46 +1198,10 @@
 		(uuid "c2bcd22a-02a4-4c66-8d84-102c8f322c49")
 	)
 	(junction
-		(at 63.5 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2c61781-25b1-4d03-88a0-b09f9534a2ca")
-	)
-	(junction
-		(at 100.33 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d08fdc35-dae0-448d-968b-e3e908a90d5b")
-	)
-	(junction
 		(at 50.8 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3e12333-5147-4af0-b803-cb869422165d")
-	)
-	(junction
-		(at 215.9 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db0526ea-f5b9-47c7-a67a-902be7457244")
-	)
-	(junction
-		(at 199.39 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0944360-ead0-4ab6-b107-5af726e2261f")
-	)
-	(junction
-		(at 184.15 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0f87c7c-d738-4f01-b802-56c65f431dfc")
-	)
-	(junction
-		(at 137.16 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1342960-41b5-4594-a125-c351b17b2bac")
 	)
 	(junction
 		(at 25.4 104.14)
@@ -1625,112 +1210,44 @@
 		(uuid "f5485b8f-cbee-4f1a-a090-363a64782f42")
 	)
 	(junction
-		(at 154.94 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6e7b542-9428-450c-b85c-eca6e9558d23")
-	)
-	(junction
-		(at 191.77 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa386463-8bc5-4c39-bdfa-e111ec000dd2")
-	)
-	(junction
-		(at 59.69 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb2180ef-5724-4b9c-a012-dc5c7fad4794")
-	)
-	(junction
-		(at 146.05 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb6ed685-be1b-4292-b33d-de4ae68956be")
-	)
-	(junction
 		(at 114.3 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbbfb7c0-7cfe-40b9-a1fe-c4360641f303")
 	)
-	(no_connect
-		(at 146.05 96.52)
-		(uuid "49e35d21-4598-4674-87c8-4f78d0ebc703")
-	)
 	(wire
 		(pts
-			(xy 146.05 153.67) (xy 153.67 153.67)
+			(xy 120.65 120.65) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00e20015-4706-419f-81a2-5f030eb5c117")
+		(uuid "00f51b40-7ad6-4f6b-b284-26e2a8464462")
 	)
 	(wire
 		(pts
-			(xy 173.99 38.1) (xy 176.53 38.1)
+			(xy 158.75 123.19) (xy 176.53 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03aa882b-5e79-4e66-b198-5b8b3124626f")
+		(uuid "073e743f-220e-4f50-a874-6590f2c941fc")
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 102.87)
+			(xy 176.53 123.19) (xy 176.53 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05820d1e-8867-43d3-93d7-38e242847fa9")
+		(uuid "07c3bb7a-c644-4bce-b2c2-e0b2cef66fe5")
 	)
 	(wire
 		(pts
-			(xy 38.1 49.53) (xy 40.64 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fe4ec9-73a4-4fe3-a72d-c39ab8970e6b")
-	)
-	(wire
-		(pts
-			(xy 49.53 54.61) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "105e1e1c-a622-447f-b8f4-3f3a074b4b8a")
-	)
-	(wire
-		(pts
-			(xy 176.53 38.1) (xy 184.15 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d9d27b-8aa1-48d1-8e84-5721643aa28d")
-	)
-	(wire
-		(pts
-			(xy 58.42 99.06) (xy 58.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14bb5514-5cb9-4605-a4b8-63ac4f51efa1")
-	)
-	(wire
-		(pts
-			(xy 38.1 93.98) (xy 38.1 110.49)
+			(xy 38.1 46.99) (xy 38.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1740,97 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 24.13) (xy 176.53 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "161e4304-aef7-42a6-a815-11704558ece6")
-	)
-	(wire
-		(pts
-			(xy 128.27 128.27) (xy 129.54 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "162f39bc-57f6-4e28-8fbe-d4f2f67787cd")
-	)
-	(wire
-		(pts
-			(xy 176.53 24.13) (xy 187.96 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "189ca2b5-f89c-4dc6-84ed-8394fd992915")
-	)
-	(wire
-		(pts
-			(xy 215.9 31.75) (xy 215.9 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b4580b-8af9-496f-903b-c9a74b989a04")
-	)
-	(wire
-		(pts
-			(xy 176.53 57.15) (xy 176.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4a095a-f44d-423c-b0c8-ae0789f3c199")
-	)
-	(wire
-		(pts
-			(xy 165.1 43.18) (xy 166.37 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7111cc-2082-42c7-bf9b-839bde5161a8")
-	)
-	(wire
-		(pts
-			(xy 74.93 30.48) (xy 83.82 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b77fc2f-8d20-49f2-baac-a127dd302f14")
-	)
-	(wire
-		(pts
-			(xy 120.65 118.11) (xy 121.92 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea844ac-e47f-408c-974a-523ab168f519")
-	)
-	(wire
-		(pts
-			(xy 107.95 36.83) (xy 120.65 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee69479-c214-4a04-aa50-84cb0a68e58b")
-	)
-	(wire
-		(pts
-			(xy 119.38 172.72) (xy 30.48 172.72)
+			(xy 30.48 172.72) (xy 133.35 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1840,27 +1267,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 137.16 81.28)
+			(xy 229.87 60.96) (xy 229.87 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20ba8f92-5986-4a16-a80e-2f2ee487f744")
+		(uuid "21560e12-6e31-4f6b-a816-2342637d9eab")
 	)
 	(wire
 		(pts
-			(xy 187.96 24.13) (xy 199.39 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b6a249-bddd-49e0-b0c0-d43a86ed9b0e")
-	)
-	(wire
-		(pts
-			(xy 30.48 40.64) (xy 33.02 40.64)
+			(xy 30.48 41.91) (xy 67.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1870,27 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 137.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241e45e9-cfd4-437a-a7ec-6463072af924")
-	)
-	(wire
-		(pts
-			(xy 52.07 35.56) (xy 59.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2437931e-5dc1-4066-a4f1-7a177a20b1a8")
-	)
-	(wire
-		(pts
-			(xy 38.1 120.65) (xy 38.1 182.88)
+			(xy 38.1 120.65) (xy 38.1 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1900,133 +1297,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 67.31 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26da14ad-930e-4278-81ad-4da2320b9330")
-	)
-	(wire
-		(pts
-			(xy 63.5 21.59) (xy 74.93 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27c56beb-cdef-4c6a-a105-1e897a18db31")
-	)
-	(wire
-		(pts
-			(xy 120.65 36.83) (xy 120.65 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2900f079-b57f-4861-aceb-8a62c4e25e05")
-	)
-	(wire
-		(pts
-			(xy 137.16 153.67) (xy 137.16 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "293e2acb-bec2-47f1-88b1-67e64e8382c3")
-	)
-	(wire
-		(pts
-			(xy 137.16 187.96) (xy 146.05 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b396b4d-e5f9-42af-8440-01dfddc2ee91")
-	)
-	(wire
-		(pts
-			(xy 176.53 135.89) (xy 227.33 135.89)
+			(xy 175.26 135.89) (xy 227.33 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2baa666d-cd1b-4600-a130-57673e64ac19")
-	)
-	(wire
-		(pts
-			(xy 153.67 187.96) (xy 153.67 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c61b874-4d23-497c-a483-41753cebd818")
-	)
-	(wire
-		(pts
-			(xy 91.44 29.21) (xy 100.33 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e1e6f1b-4402-4122-bc61-79d2416bff4f")
-	)
-	(wire
-		(pts
-			(xy 91.44 41.91) (xy 93.98 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f73e377-695f-4b44-bf7c-911aa4ae89d5")
-	)
-	(wire
-		(pts
-			(xy 215.9 44.45) (xy 218.44 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303261e5-4d57-4717-a09a-74820e2e443a")
-	)
-	(wire
-		(pts
-			(xy 100.33 64.77) (xy 100.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "339ee1d4-0001-4b33-b3e2-db735c494bb2")
-	)
-	(wire
-		(pts
-			(xy 91.44 29.21) (xy 91.44 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c3bc7f-c39c-4df5-87c2-0e7005156c81")
-	)
-	(wire
-		(pts
-			(xy 250.19 54.61) (xy 264.16 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34ad7062-575c-4c6f-96b6-a2e24b38d3a8")
 	)
 	(wire
 		(pts
@@ -2040,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 161.29) (xy 176.53 161.29)
+			(xy 163.83 175.26) (xy 175.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2050,17 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 171.45 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8c63d8-0202-4012-a7f1-e6b376fd23b8")
-	)
-	(wire
-		(pts
-			(xy 30.48 83.82) (xy 30.48 92.71)
+			(xy 30.48 41.91) (xy 30.48 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2070,103 +1337,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 60.96) (xy 199.39 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1aa1a9-066b-4570-b2cf-e5b9b3246043")
-	)
-	(wire
-		(pts
-			(xy 91.44 40.64) (xy 91.44 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40056fc0-3906-4388-be5a-d7253e783cec")
-	)
-	(wire
-		(pts
-			(xy 91.44 64.77) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40888dbd-0958-40f4-8873-236c6ee43193")
-	)
-	(wire
-		(pts
-			(xy 232.41 67.31) (xy 232.41 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a7b1f5-e9ea-4568-983b-4599326c84f9")
-	)
-	(wire
-		(pts
-			(xy 63.5 19.05) (xy 63.5 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f09cb9-4d16-46e3-8dd3-c6125bca9333")
-	)
-	(wire
-		(pts
-			(xy 215.9 67.31) (xy 224.79 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424983aa-e829-4545-9f8f-d01b76279bbe")
-	)
-	(wire
-		(pts
-			(xy 114.3 64.77) (xy 114.3 128.27)
+			(xy 114.3 63.5) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "434e1c8b-361a-42fd-a158-21b17999004a")
-	)
-	(wire
-		(pts
-			(xy 129.54 172.72) (xy 127 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44984eb5-6ad7-4d84-899f-dbf70318d5e3")
-	)
-	(wire
-		(pts
-			(xy 146.05 97.79) (xy 146.05 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4612ba45-2082-4ea6-a1c6-ef793625707a")
-	)
-	(wire
-		(pts
-			(xy 137.16 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47cbb0fe-25ae-495e-87d1-575025d2a5c5")
 	)
 	(wire
 		(pts
@@ -2180,47 +1357,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 107.95 46.99)
+			(xy 120.65 124.46) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b6f02b3-3680-4194-bf99-860c51a1f796")
+		(uuid "4e8af8f5-168d-4e97-b3a2-2ea5762adad8")
 	)
 	(wire
 		(pts
-			(xy 184.15 57.15) (xy 176.53 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ce53b36-aa62-4285-b959-c2a661466445")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 146.05 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "503e9ddd-c056-4403-998a-10d2b8e050c5")
-	)
-	(wire
-		(pts
-			(xy 59.69 35.56) (xy 59.69 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a67eb6-e7b9-4db1-948c-6210a628f04d")
-	)
-	(wire
-		(pts
-			(xy 114.3 64.77) (xy 154.94 64.77)
+			(xy 114.3 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2230,413 +1377,43 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 64.77)
+			(xy 120.65 58.42) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5209f5d5-87e3-4132-8af7-24a8fed088b1")
+		(uuid "58ba1db3-e12f-46e2-99ba-0c9f66263b7b")
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 153.67 99.06)
+			(xy 120.65 128.27) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "537d2010-7226-42e2-a78c-3d747b413fbd")
+		(uuid "5b1aef08-7cf0-4204-86a7-7799d80943fd")
 	)
 	(wire
 		(pts
-			(xy 184.15 38.1) (xy 184.15 46.99)
+			(xy 120.65 44.45) (xy 120.65 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5882d2ba-e284-4c88-9f8d-5844a0c511d6")
+		(uuid "5c214af8-dc68-4d65-b645-ae78ce80eead")
 	)
 	(wire
 		(pts
-			(xy 176.53 60.96) (xy 191.77 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588ed42e-b333-468e-881f-5f7e4807a351")
-	)
-	(wire
-		(pts
-			(xy 137.16 134.62) (xy 137.16 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ab4e62-f721-4287-81d7-08135fc568db")
-	)
-	(wire
-		(pts
-			(xy 137.16 166.37) (xy 139.7 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "592c8a50-097d-406d-939c-0d97bafda2d3")
-	)
-	(wire
-		(pts
-			(xy 208.28 33.02) (xy 208.28 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5986a66e-3471-4c34-a0f3-efef5d70c892")
-	)
-	(wire
-		(pts
-			(xy 58.42 78.74) (xy 83.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59afe201-0d97-4f7c-bcd2-c5767134bdec")
-	)
-	(wire
-		(pts
-			(xy 171.45 76.2) (xy 208.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a14cea0-390f-4e63-bd39-5fcf139a9cbb")
-	)
-	(wire
-		(pts
-			(xy 224.79 67.31) (xy 232.41 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab335e5-8d6c-46a9-8d6c-551a8389c943")
-	)
-	(wire
-		(pts
-			(xy 153.67 116.84) (xy 153.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8c73c8-5e51-4c68-a767-e1fafb9aa460")
-	)
-	(wire
-		(pts
-			(xy 137.16 166.37) (xy 137.16 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60de7732-5918-4431-9d85-778e912b826f")
-	)
-	(wire
-		(pts
-			(xy 215.9 44.45) (xy 215.9 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a7d57e-a875-4e9e-bdc9-5725d017124c")
-	)
-	(wire
-		(pts
-			(xy 171.45 64.77) (xy 171.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64989348-873f-4739-92db-23fe0c8c9219")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.44) (xy 156.21 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669f1823-bd58-46bd-80c1-51c8c28f6d75")
-	)
-	(wire
-		(pts
-			(xy 91.44 41.91) (xy 91.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68910734-fd18-4749-bd62-1cb2518fb3c4")
-	)
-	(wire
-		(pts
-			(xy 30.48 83.82) (xy 43.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a31d055-0c06-4a00-93e3-bdb0f71ab04d")
-	)
-	(wire
-		(pts
-			(xy 232.41 39.37) (xy 250.19 39.37)
+			(xy 229.87 54.61) (xy 264.16 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b356e68-aea3-46dc-ba05-294f4fda0b07")
-	)
-	(wire
-		(pts
-			(xy 153.67 107.95) (xy 176.53 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c24d2c5-66f5-46b9-82b9-87f278473aef")
-	)
-	(wire
-		(pts
-			(xy 199.39 60.96) (xy 199.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6362a8-c1c2-425a-9854-fd674d3d03e6")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 157.48 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "708f874b-f178-40a0-aa8f-cc00a2695601")
-	)
-	(wire
-		(pts
-			(xy 171.45 96.52) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71070275-94c3-4db5-a68a-d62c3e66cf0b")
-	)
-	(wire
-		(pts
-			(xy 215.9 31.75) (xy 224.79 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71268238-5b40-4594-8822-1574c6ee955d")
-	)
-	(wire
-		(pts
-			(xy 59.69 54.61) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b97664-cf9a-441d-9d82-395891d2f5dc")
-	)
-	(wire
-		(pts
-			(xy 120.65 58.42) (xy 137.16 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b4581d-019f-4406-a14e-b7c60a13e5a8")
-	)
-	(wire
-		(pts
-			(xy 224.79 67.31) (xy 224.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "740339e0-2397-4313-b23e-2f691b61927e")
-	)
-	(wire
-		(pts
-			(xy 38.1 49.53) (xy 38.1 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "753d8c85-d8c6-4fd0-9fb8-78c415b22879")
-	)
-	(wire
-		(pts
-			(xy 74.93 29.21) (xy 74.93 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78014dd7-05c6-4f68-bdd6-80949f2ff3e0")
-	)
-	(wire
-		(pts
-			(xy 137.16 165.1) (xy 137.16 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780914b1-bce4-433b-9b3e-271bc5e170e8")
-	)
-	(wire
-		(pts
-			(xy 146.05 187.96) (xy 153.67 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784e4add-a7ec-4164-b445-f08fabbdf6c9")
-	)
-	(wire
-		(pts
-			(xy 226.06 44.45) (xy 224.79 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7904b471-95e1-4abc-9540-4bbebb8ab5ae")
-	)
-	(wire
-		(pts
-			(xy 191.77 60.96) (xy 191.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "799a5370-6bd0-4688-911b-ac3f124f978f")
-	)
-	(wire
-		(pts
-			(xy 137.16 153.67) (xy 146.05 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b3926fa-1772-4968-9956-221c1df2e644")
-	)
-	(wire
-		(pts
-			(xy 101.6 41.91) (xy 100.33 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eda6095-fcba-49d0-b331-f4372ae5d8a7")
-	)
-	(wire
-		(pts
-			(xy 83.82 30.48) (xy 83.82 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a6edd1-5cb4-46df-aeee-5303f4b94a14")
-	)
-	(wire
-		(pts
-			(xy 30.48 40.64) (xy 30.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818abcc3-6deb-4cc3-ae10-fe9fd8267d45")
-	)
-	(wire
-		(pts
-			(xy 38.1 93.98) (xy 43.18 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84817f17-ee6a-44b8-9a4e-a0660ff7b138")
-	)
-	(wire
-		(pts
-			(xy 48.26 49.53) (xy 52.07 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88450228-802c-4d42-b3b1-e7d78ce222b3")
-	)
-	(wire
-		(pts
-			(xy 137.16 111.76) (xy 138.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "896961ef-55f0-4fb8-8f66-6582887826fc")
-	)
-	(wire
-		(pts
-			(xy 215.9 67.31) (xy 215.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be700d8-60a8-4ad7-9e8c-01100b475d8e")
-	)
-	(wire
-		(pts
-			(xy 100.33 27.94) (xy 100.33 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f66d26b-d4f6-4e39-beca-cfc2d98ca743")
 	)
 	(wire
 		(pts
@@ -2647,16 +1424,6 @@
 			(type default)
 		)
 		(uuid "9093549d-13ea-47e8-920e-5acfe775a884")
-	)
-	(wire
-		(pts
-			(xy 146.05 134.62) (xy 146.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f8e5e0-a592-4f9a-a829-9657f3785b1c")
 	)
 	(wire
 		(pts
@@ -2680,36 +1447,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 176.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ca527f-d14c-40d3-9161-7fd415b527ad")
-	)
-	(wire
-		(pts
-			(xy 127 182.88) (xy 129.54 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95cea7d3-1b7d-4088-a330-8627f47e2294")
-	)
-	(wire
-		(pts
-			(xy 137.16 99.06) (xy 146.05 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5092fa-5e3c-458b-98c8-441c03bb585f")
-	)
-	(wire
-		(pts
 			(xy 50.8 139.7) (xy 113.03 139.7)
 		)
 		(stroke
@@ -2720,53 +1457,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 54.61) (xy 250.19 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a752b1-f253-4597-b980-ba093a47cb0c")
-	)
-	(wire
-		(pts
-			(xy 199.39 33.02) (xy 208.28 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4110fa6-a1fd-4b97-b5eb-16b9da0ccf06")
-	)
-	(wire
-		(pts
-			(xy 176.53 161.29) (xy 176.53 135.89)
+			(xy 175.26 175.26) (xy 175.26 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a4e57647-4545-4c16-a4ad-217d05407ce0")
-	)
-	(wire
-		(pts
-			(xy 154.94 64.77) (xy 154.94 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e6941b-6bde-4282-a0f8-eb061d09e093")
-	)
-	(wire
-		(pts
-			(xy 146.05 187.96) (xy 146.05 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ffeaf1-5b46-474c-aac8-e84d1b3a8baa")
 	)
 	(wire
 		(pts
@@ -2780,43 +1477,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 21.59) (xy 52.07 27.94)
+			(xy 82.55 44.45) (xy 120.65 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a55a7bd5-4dde-40b9-b2d3-3686057ad56d")
-	)
-	(wire
-		(pts
-			(xy 40.64 40.64) (xy 41.91 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a92ff479-8378-4f80-be71-90e98723bb9e")
-	)
-	(wire
-		(pts
-			(xy 147.32 166.37) (xy 146.05 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a953f83c-8c1b-4666-9f63-0793a8cace86")
-	)
-	(wire
-		(pts
-			(xy 208.28 76.2) (xy 208.28 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b027a8e4-325f-40e4-a09f-537c644dc2c6")
+		(uuid "b0919728-5adf-416e-b208-2f2fc9d57c0e")
 	)
 	(wire
 		(pts
@@ -2830,13 +1497,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 176.53 127)
+			(xy 149.86 60.96) (xy 229.87 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4b8f702-c75b-4f60-a927-6bfac5301cc6")
+		(uuid "b5f0baf0-c46e-45fc-b03e-973d29264ace")
 	)
 	(wire
 		(pts
@@ -2870,23 +1537,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 107.95) (xy 153.67 106.68)
+			(xy 120.65 58.42) (xy 134.62 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcf5a180-513f-40a2-a0f3-6b3970116a12")
-	)
-	(wire
-		(pts
-			(xy 224.79 31.75) (xy 232.41 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfd4823-7b0c-4f0c-97bc-bf83da932aaa")
+		(uuid "c37fbee4-f84f-4e56-b499-f85e3ba7dd6b")
 	)
 	(wire
 		(pts
@@ -2900,26 +1557,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 57.15) (xy 176.53 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd20fe25-931d-4af5-9e4c-ab04c0368c1b")
-	)
-	(wire
-		(pts
-			(xy 52.07 21.59) (xy 63.5 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce231a69-a6a6-4629-afae-28ab6e301282")
-	)
-	(wire
-		(pts
 			(xy 24.13 139.7) (xy 25.4 139.7)
 		)
 		(stroke
@@ -2927,36 +1564,6 @@
 			(type default)
 		)
 		(uuid "cf052dbf-7347-45f2-95d6-d5bd33c79579")
-	)
-	(wire
-		(pts
-			(xy 83.82 78.74) (xy 83.82 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d05e366e-d555-40b7-b1fa-e2d973284591")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4cea9c6-598d-456a-8f3a-41e17957eaec")
-	)
-	(wire
-		(pts
-			(xy 224.79 30.48) (xy 224.79 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86fa127-cafa-4854-81a8-69635c7b8535")
 	)
 	(wire
 		(pts
@@ -2970,76 +1577,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 74.93 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d991ad4b-0ee6-4f1d-bf8a-496f967770ce")
-	)
-	(wire
-		(pts
-			(xy 187.96 21.59) (xy 187.96 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da462fc6-6b2b-482d-92f8-3678e1c72b46")
-	)
-	(wire
-		(pts
-			(xy 146.05 152.4) (xy 146.05 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1e934f-5ac4-402c-a9a6-7e52bb82d1ed")
-	)
-	(wire
-		(pts
-			(xy 100.33 29.21) (xy 107.95 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbfb9afd-446f-4575-8c22-25798a760520")
-	)
-	(wire
-		(pts
-			(xy 91.44 64.77) (xy 100.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb1ce9e-7b30-4d90-9499-758f572878f1")
-	)
-	(wire
-		(pts
-			(xy 215.9 43.18) (xy 215.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e046bca3-e547-4ad3-9f66-1d40bb3ad737")
-	)
-	(wire
-		(pts
-			(xy 199.39 31.75) (xy 199.39 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35dcc68-1175-4cfb-a477-599ecbb6aec2")
-	)
-	(wire
-		(pts
 			(xy 24.13 120.65) (xy 25.4 120.65)
 		)
 		(stroke
@@ -3047,26 +1584,6 @@
 			(type default)
 		)
 		(uuid "e365adeb-2116-4491-81e9-eb6204069c12")
-	)
-	(wire
-		(pts
-			(xy 49.53 35.56) (xy 52.07 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e451ed8a-f5c5-4b00-898b-b7ae8bcb5f18")
-	)
-	(wire
-		(pts
-			(xy 100.33 64.77) (xy 107.95 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5206ae6-51dc-43f3-bb97-6ddf53df1396")
 	)
 	(wire
 		(pts
@@ -3080,33 +1597,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 113.03)
+			(xy 38.1 46.99) (xy 67.31 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5e2dd05-973c-4911-8f55-b6bbe7c7de31")
-	)
-	(wire
-		(pts
-			(xy 74.93 40.64) (xy 74.93 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec430cad-1d13-407d-9ef4-39d9da182c8b")
-	)
-	(wire
-		(pts
-			(xy 49.53 45.72) (xy 49.53 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecfeba4e-6d2b-44da-8b91-d096382a1b4d")
+		(uuid "eb5d844f-d26c-4c09-84c0-d10cc1c0174d")
 	)
 	(wire
 		(pts
@@ -3120,73 +1617,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 58.42) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee5112cf-4332-4537-a6b3-ee5f51dce49a")
-	)
-	(wire
-		(pts
-			(xy 146.05 134.62) (xy 153.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef3cbae3-7ba1-4941-86f0-36dac89e1779")
-	)
-	(wire
-		(pts
-			(xy 38.1 182.88) (xy 119.38 182.88)
+			(xy 38.1 176.53) (xy 133.35 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f014dfb8-88d9-4a16-9ae7-061f8fdcd81e")
-	)
-	(wire
-		(pts
-			(xy 52.07 58.42) (xy 67.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f37a5c92-b579-4f98-8749-8d6dc21f499c")
-	)
-	(wire
-		(pts
-			(xy 137.16 110.49) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55fde16-9047-4ee0-8393-5042b3009cc1")
-	)
-	(wire
-		(pts
-			(xy 173.99 48.26) (xy 173.99 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8983d9c-c045-4909-9d7d-beb8e520280a")
-	)
-	(wire
-		(pts
-			(xy 58.42 76.2) (xy 58.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9799f8f-5731-4fa7-a7d7-88cf4530bb1e")
 	)
 	(wire
 		(pts
@@ -3218,199 +1655,6 @@
 		)
 		(uuid "fc745ce6-aec6-470c-8c2d-6b7a2ad2e8ed")
 	)
-	(wire
-		(pts
-			(xy 58.42 67.31) (xy 58.42 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd0bb55a-7cbf-4398-add0-ababee8195b9")
-	)
-	(wire
-		(pts
-			(xy 52.07 54.61) (xy 52.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7d23d8-1b44-4dc0-bb68-e0fabf8e23e7")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "011e20b4-ed99-48d9-8672-ad753df2d014")
-		(property "Reference" "#PWR06"
-			(at 224.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f47236ca-fbd7-438a-9070-95c7e081db71")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 125.73 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02c6d95a-9c0a-40b0-a5d3-2a97de9ef26a")
-		(property "Reference" "R5"
-			(at 125.73 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 125.73 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 125.73 116.332 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 19.05 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 19.05 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80da738d-6d30-4cee-bd76-e5c71f787294")
-		)
-		(pin "2"
-			(uuid "4ac19ac5-e741-475e-9013-eedfa1a63b66")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Simulation_SPICE:VPULSE")
 		(at 25.4 147.32 0)
@@ -3421,7 +1665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "054620fb-b2b0-43f7-baaf-41e66b6273ab")
-		(property "Reference" "V2"
+		(property "Reference" "V4"
 			(at 29.21 144.6501 0)
 			(effects
 				(font
@@ -3521,467 +1765,7 @@
 		(instances
 			(project ""
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06e71960-1265-461f-817e-9ec7da2de647")
-		(property "Reference" "R1"
-			(at 179.07 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 174.752 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 176.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd3e43bd-d698-48ac-9739-73ad2681c634")
-		)
-		(pin "2"
-			(uuid "84092349-ab44-4ec7-b78f-40b829009aca")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 72.39 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07d2894c-34f0-4099-826e-963ad69828c2")
-		(property "Reference" "Q2"
-			(at 77.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 77.47 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 77.47 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 72.39 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc57dc2c-b65c-4c6f-9af7-8684ec88607e")
-		)
-		(pin "2"
-			(uuid "1679e6a6-c44c-4355-914a-cdaf44c39d6e")
-		)
-		(pin "3"
-			(uuid "20a22723-9561-4e80-b57c-93627a0c9df9")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0839163d-10d2-4670-a58a-5f12308690e6")
-		(property "Reference" "R5"
-			(at 134.62 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k"
-			(at 134.62 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 135.382 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 0 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 0 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1c98cc4-fd50-4f72-8e4d-b2adbf2a1686")
-		)
-		(pin "2"
-			(uuid "fa794473-359b-42be-bdbd-cf9e5d029a24")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 229.87 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08402bb8-89ff-48e3-8d49-6f8949988d59")
-		(property "Reference" "Q7"
-			(at 234.95 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 234.95 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 229.87 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30735d4c-343c-408c-bda4-37b25784d53f")
-		)
-		(pin "2"
-			(uuid "ff6d828d-d6af-4efd-b9c4-962ef6c3183f")
-		)
-		(pin "3"
-			(uuid "db9697fb-eac7-48fa-9914-038b8b0c611e")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q25")
+					(reference "V4")
 					(unit 1)
 				)
 			)
@@ -3997,7 +1781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f1acee2-382d-4006-9c8a-a9007d355e40")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR01"
 			(at 17.78 55.88 0)
 			(effects
 				(font
@@ -4047,92 +1831,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "126e9eee-d995-41ee-ab0e-2bbe16f8393a")
-		(property "Reference" "R7"
-			(at 234.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 234.95 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 230.632 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 232.41 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "366f4a5b-e255-44aa-ad25-9e14a5b92c94")
-		)
-		(pin "2"
-			(uuid "820debf9-3f20-4d53-98cc-dc3882785197")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R23")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4149,7 +1848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1938efb0-3bda-4d05-a075-1aeb85bc6add")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR07"
 			(at 25.4 138.43 0)
 			(effects
 				(font
@@ -4199,279 +1898,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 171.45 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "197dedd1-8025-45d9-992b-b39634a389f5")
-		(property "Reference" "Q24"
-			(at 176.53 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 176.53 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 176.53 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 171.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93ee1609-01c5-402a-882e-9df119ba8380")
-		)
-		(pin "2"
-			(uuid "e67cbf2e-b899-4973-9e72-6be404beb804")
-		)
-		(pin "3"
-			(uuid "95f92175-d265-433a-81c7-36db52c75676")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 134.62 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ccaf9e7-7398-49ec-a0a0-620f602ac54f")
-		(property "Reference" "Q20"
-			(at 139.7 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 139.7 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 139.7 174.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 134.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f0034f6-6799-488b-ba9d-623a23edf7d9")
-		)
-		(pin "2"
-			(uuid "75287585-afe2-488f-af97-9186b9e5dce9")
-		)
-		(pin "3"
-			(uuid "f4da0e3f-a4df-4863-a87a-642455778ecc")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q4")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4579,464 +2006,6 @@
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
 					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1faf453b-f575-4e75-8180-aee537091543")
-		(property "Reference" "R5"
-			(at 132.08 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 135.382 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 137.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92c75eb0-5e94-43ca-8cf9-1a2bb2c836ed")
-		)
-		(pin "2"
-			(uuid "0c820f34-b00f-4967-ae85-c6c3cfee7fa3")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fd5855e-b360-4bb5-a1bd-9bcf932b990d")
-		(property "Reference" "R2"
-			(at 63.5 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 63.5 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 63.5 37.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 63.5 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59478353-47b3-4f3b-a17f-b094cf7d9d6c")
-		)
-		(pin "2"
-			(uuid "0f468681-7ed0-4f87-8a93-06179d45c967")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20c68ffe-e828-4dbc-9cca-5cb272942039")
-		(property "Reference" "R6"
-			(at 143.51 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 143.51 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 143.51 168.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 143.51 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28f14f29-3495-458e-8c11-45a286805f57")
-		)
-		(pin "2"
-			(uuid "db9a7fbc-331b-4dd1-b847-1ef250dcd8bf")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25dd61c9-9bdb-475d-a9ef-0afeb1ab3998")
-		(property "Reference" "#PWR05"
-			(at 146.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8d28207-d0b2-4d46-a0e4-86bbb39b617d")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 57.15 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26492ea2-9fda-4097-989d-11a84fea929c")
-		(property "Reference" "Q15"
-			(at 62.23 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 62.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 62.23 51.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549b6a71-a1c7-4092-9817-d80579ca12f0")
-		)
-		(pin "2"
-			(uuid "8825056b-1e57-407a-b118-8a1b144534a2")
-		)
-		(pin "3"
-			(uuid "d3d7b635-3aba-4a13-beac-3670688f084c")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -5160,91 +2129,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27daa30b-a34f-4a3e-a3f8-c157e59aea52")
-		(property "Reference" "R7"
-			(at 156.21 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 156.21 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 151.892 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 153.67 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6131c0ed-db2f-4b0a-913d-0445b5d17156")
-		)
-		(pin "2"
-			(uuid "530e60f1-85b4-47ad-8ac0-9d61129a1086")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 41.91 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5253,7 +2137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28345a35-c4f1-40f4-9903-c50b3e58b332")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 41.91 104.14 90)
 			(effects
 				(font
@@ -5332,395 +2216,13 @@
 		(instances
 			(project "and-gate"
 				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 134.62 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e41cbd8-bb49-430c-a5b7-d70ecbc353ff")
-		(property "Reference" "Q20"
-			(at 139.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 139.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 139.7 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 134.62 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cead35a0-4c57-43d5-99de-8f69281ad459")
-		)
-		(pin "2"
-			(uuid "b6720344-073f-46c1-b33a-ebd29121a70b")
-		)
-		(pin "3"
-			(uuid "e2045692-e1a0-49ae-afb4-b3799f3b7ae1")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "303cd3d5-5cd9-465a-826e-c884e0cc5299")
-		(property "Reference" "#PWR06"
-			(at 146.05 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db71cfa5-6635-4a0d-9167-86cfb7389f48")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 44.45 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d87071-fc51-432f-8071-a258ecb7d1c1")
-		(property "Reference" "R5"
-			(at 44.45 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 44.45 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 44.45 47.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at -62.23 -87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -62.23 -87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4056535e-6c5a-4d13-90e9-d3e23e0bb824")
-		)
-		(pin "2"
-			(uuid "c9b3f209-7319-46f6-b86d-eb40522bc613")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32caa59e-2048-4ec1-a1d2-4f80bdbb464f")
-		(property "Reference" "#PWR02"
-			(at 191.77 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "003110ad-7424-4693-a6ec-81b82bce3dba")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR016")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5736,7 +2238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "367b27dc-f81f-4426-9aea-ac1dca42312c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR010"
 			(at 50.8 125.73 0)
 			(effects
 				(font
@@ -5786,162 +2288,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 41.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37a4cb42-7bd1-4d35-b031-0f2b219a82ed")
-		(property "Reference" "R6"
-			(at 97.79 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 97.79 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 97.79 43.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76917d58-0313-453e-bfd6-96b06a8c941c")
-		)
-		(pin "2"
-			(uuid "517a15d5-0a8d-4e04-be96-b51cc6bf9872")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "385a7320-0cb8-4259-a413-7b28b8e3be47")
-		(property "Reference" "#PWR02"
-			(at 67.31 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c78eda3-16e1-42fb-a8b7-e2b5f69c18f5")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5957,7 +2304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39753c3f-a751-4522-980a-38e8856cd366")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR09"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -6008,92 +2355,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 215.9 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "397c53e6-9d7b-448a-aedf-28a9e5d9313c")
-		(property "Reference" "R5"
-			(at 213.36 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k"
-			(at 213.36 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 214.122 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 215.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "522ff9ec-85c2-40f5-92ee-a731280cae1f")
-		)
-		(pin "2"
-			(uuid "dd1eea70-5d67-43d8-97f5-e62fef1ca956")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R21")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6109,7 +2371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ea20ef-04af-4276-9a63-6160accb2667")
-		(property "Reference" "V4"
+		(property "Reference" "V2"
 			(at 29.21 106.5501 0)
 			(effects
 				(font
@@ -6209,301 +2471,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "V4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "426d02c2-bdd5-45d1-9e50-1d2ffe0ebe50")
-		(property "Reference" "R7"
-			(at 110.49 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 110.49 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 106.172 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 107.95 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d584e22-d0a0-4ee3-a458-3be2ec224247")
-		)
-		(pin "2"
-			(uuid "b50b224d-738b-4da5-9ab2-915352e19247")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42f01a35-bdb6-4b7b-8a17-29471d4cb124")
-		(property "Reference" "#PWR06"
-			(at 146.05 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 148.59 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d060436-74b3-4fba-b51b-7e15877b2783")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 88.9 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43b7837f-1496-4ff6-83e2-c150fc1ce877")
-		(property "Reference" "Q20"
-			(at 93.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 93.98 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 93.98 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "358197e9-88f2-4d2a-b27e-c13aacc0d60f")
-		)
-		(pin "2"
-			(uuid "db1c32fe-5af4-4d59-a04b-b82caf1b55a4")
-		)
-		(pin "3"
-			(uuid "3daed0b3-9395-4123-bbfa-d2a02f3e473c")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q10")
+					(reference "V2")
 					(unit 1)
 				)
 			)
@@ -6519,7 +2487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47105463-ffe0-484e-bf05-2b4e78eea9c9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR03"
 			(at 15.24 92.71 0)
 			(effects
 				(font
@@ -6570,90 +2538,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba58fa9-fb16-4749-9d5a-13ccc055165c")
-		(property "Reference" "R6"
-			(at 142.24 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 142.24 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 142.24 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 142.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5becfa22-4f6c-47df-a43e-38c3c2ac72ab")
-		)
-		(pin "2"
-			(uuid "3f8f9b72-1656-4af2-84fd-dc82ec34936e")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R2")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6669,7 +2554,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "4d4dbb78-1224-47b3-8d7a-8ff5bc83f319")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR06"
 			(at 25.4 120.65 0)
 			(effects
 				(font
@@ -6719,294 +2604,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57c3606a-ae9f-42f0-ad75-5fd4c6a5466d")
-		(property "Reference" "R3"
-			(at 201.93 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 201.93 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 197.612 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 199.39 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b11cbf5e-3574-4855-99b6-aafd30a370f0")
-		)
-		(pin "2"
-			(uuid "b0bf8ab0-b4c4-4b9c-bc92-015705857ac2")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59a8e9d0-87b3-4014-b0ee-5d70ad9d28b8")
-		(property "Reference" "R5"
-			(at 36.83 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 36.83 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 36.83 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at -69.85 -96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -69.85 -96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4f2dbd0-af6d-4b9c-90d9-f9cbde58fce7")
-		)
-		(pin "2"
-			(uuid "49967384-14a3-4598-8d0b-61550d248c21")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aff4d2b-30d6-4706-9323-469316658407")
-		(property "Reference" "R5"
-			(at 46.99 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 46.99 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 46.99 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at -59.69 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -59.69 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 46.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfe996d5-1482-4a01-a989-3518a778101f")
-		)
-		(pin "2"
-			(uuid "c46ad9e9-facd-4e82-9c0e-b78de14afa8f")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R36")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7022,7 +2620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3096d6-f4bf-49c0-824d-6262ca782059")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 53.34 134.62 0)
 			(effects
 				(font
@@ -7103,13 +2701,13 @@
 		(instances
 			(project "and-gate"
 				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R41")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7125,7 +2723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f56ea0d-f257-4edc-b12f-aca6c1bddfcc")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 20.32 16.51 0)
 			(effects
 				(font
@@ -7183,108 +2781,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6144a60f-ef95-4aa8-8631-e0ef4222077f")
-		(property "Reference" "R5"
-			(at 46.99 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 46.99 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 46.99 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at -59.69 -53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -59.69 -53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 46.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "030be9d6-5f3b-403b-a90d-8c4972dcb211")
-		)
-		(pin "2"
-			(uuid "b011bdba-75a1-48e4-969a-93772234fa95")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R35")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7300,7 +2797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b2e71e-5911-44df-9dcb-1e18dc98bc7e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR02"
 			(at 17.78 68.58 0)
 			(effects
 				(font
@@ -7350,434 +2847,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 187.96 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6680ff9f-9787-40a5-a381-574f5c8caa76")
-		(property "Reference" "R2"
-			(at 187.96 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 187.96 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 187.96 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 187.96 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ec55b25-5ef2-4764-9530-6ab8da724ad9")
-		)
-		(pin "2"
-			(uuid "f0f1ba97-5e2e-4772-8dae-e6b12043f083")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 55.88 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68a74829-4bc9-4ee4-a7c8-f24eff680b69")
-		(property "Reference" "Q20"
-			(at 60.96 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 60.96 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 60.96 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 55.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39297b26-7b81-4bb2-a450-92a9a4659b6a")
-		)
-		(pin "2"
-			(uuid "3dd2caf7-a43e-487a-bcc4-3e146ac0bf85")
-		)
-		(pin "3"
-			(uuid "31b7f4b0-8ae5-4823-a6bf-91d3eb139578")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 105.41 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a9e617c-5b80-4975-a68f-d73e5daa5375")
-		(property "Reference" "Q7"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 110.49 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 110.49 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60b49a0c-f1b1-4352-b486-e8e61f24b411")
-		)
-		(pin "2"
-			(uuid "aebdd3d6-3853-478e-96c1-9bdcfaf9be24")
-		)
-		(pin "3"
-			(uuid "56222a09-8ca2-42ad-9199-18d8a72e5809")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fd6f158-9c83-40be-94fd-0cff63e4c7c2")
-		(property "Reference" "#PWR05"
-			(at 171.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abcce6ea-399a-442c-a225-0f634735c5d0")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7793,7 +2863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7118d8ed-1315-4d4a-997f-225c59671088")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 21.59 22.86 0)
 			(effects
 				(font
@@ -7844,588 +2914,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 213.36 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71ae865a-8a36-4612-91be-cd61ba3c481b")
-		(property "Reference" "Q13"
-			(at 218.44 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 218.44 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 218.44 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 213.36 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a834f2d6-11ae-46d6-903c-472ec3577e8f")
-		)
-		(pin "2"
-			(uuid "3d5a7f3f-837b-4744-afd9-e495cf8d9540")
-		)
-		(pin "3"
-			(uuid "a627b1aa-2be6-4763-8070-b8a7722c37e2")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7336c536-b04a-47d9-8f0e-8827bf21e1cd")
-		(property "Reference" "R5"
-			(at 160.02 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 160.02 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 160.02 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 53.34 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 53.34 -55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 160.02 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68187b47-4444-42ea-adab-a99296ef934f")
-		)
-		(pin "2"
-			(uuid "e44907fc-fbd1-4918-8500-bc0457ff0982")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 88.9 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75597a7e-6291-4485-a99e-bfeca34d6fad")
-		(property "Reference" "Q13"
-			(at 93.98 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 93.98 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 93.98 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90c39135-6bbb-4f22-a178-9f00755e3641")
-		)
-		(pin "2"
-			(uuid "468e83d9-7955-4300-846b-75811629d2a5")
-		)
-		(pin "3"
-			(uuid "d0114f85-7e11-48eb-9519-9277aed05a9c")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7602c379-27ec-47f2-959d-8d8702d3c177")
-		(property "Reference" "#PWR01"
-			(at 187.96 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 187.96 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 187.96 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fc133a3-38cc-4b45-a6fc-4f361aa5f399")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 46.99 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7626658c-6a91-429f-abfb-4b078f19836a")
-		(property "Reference" "Q24"
-			(at 52.07 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 52.07 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 52.07 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 46.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "359ab3d4-e034-4447-bff3-39307c32b7c6")
-		)
-		(pin "2"
-			(uuid "ff9690e5-ad7d-4a20-bcb6-184f115fde01")
-		)
-		(pin "3"
-			(uuid "70d23fa1-e583-4534-9846-c61b99943235")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q24")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q15")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8441,7 +2930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "779254e0-af47-48af-86be-42b2a7176272")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR011"
 			(at 128.27 25.4 0)
 			(effects
 				(font
@@ -8491,265 +2980,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e2c41af-06e5-4132-9ec8-e919fc1c4616")
-		(property "Reference" "#PWR06"
-			(at 58.42 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dddb214b-f87d-4d15-8bff-528c476f4295")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e79cb91-845a-4371-8d4b-06fd1eef10f8")
-		(property "Reference" "R3"
-			(at 77.47 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 77.47 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 73.152 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 74.93 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d6497eb-d30f-4972-bc2c-59245de26a92")
-		)
-		(pin "2"
-			(uuid "c2bad9e3-4b2a-4e90-aa40-9b05b38c68d5")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eb40ffa-c455-4050-a8f7-893b8f729a06")
-		(property "Reference" "R5"
-			(at 123.19 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 123.19 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 123.19 170.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 16.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 16.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 123.19 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f16ce82-402f-46f8-9022-ea3b9bdb7366")
-		)
-		(pin "2"
-			(uuid "0ed2b498-5739-44a5-b68a-27c8b628ab71")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R32")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8765,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8076daaa-b6ae-4464-9b38-21914c288fd1")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 25.4 86.36 90)
 			(effects
 				(font
@@ -8844,931 +3075,13 @@
 		(instances
 			(project "and-gate"
 				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 134.62 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8291cda7-b7a0-494d-bb85-e8ff90a0b788")
-		(property "Reference" "Q13"
-			(at 139.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 139.7 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 139.7 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 134.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a073dab-1954-40ff-aad3-5b409137aec1")
-		)
-		(pin "2"
-			(uuid "58fba883-9b8b-4b2d-8562-8256a7ee64d8")
-		)
-		(pin "3"
-			(uuid "cb7250c1-51d3-4d6d-97eb-666d709a408f")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165.1 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8334a7a8-eade-45ad-b14e-ac8592010dd1")
-		(property "Reference" "R5"
-			(at 165.1 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 165.1 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 165.1 50.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 58.42 -85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 58.42 -85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 165.1 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05871bd8-0226-44d8-bfd6-a1b49783f6be")
-		)
-		(pin "2"
-			(uuid "2374edcf-5758-4558-bccc-116a0c1074aa")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c7e2ca0-4fff-4af1-920e-39dd8f8e9094")
-		(property "Reference" "#PWR06"
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d4fb267-3714-4ce2-9c7b-b9ed7573321b")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 151.13 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ed89097-6441-4a5e-b532-54921213bde7")
-		(property "Reference" "Q7"
-			(at 156.21 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 156.21 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 151.13 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9d5316b-bb16-4b6e-af0e-421159168ca2")
-		)
-		(pin "2"
-			(uuid "f401f4ba-daa0-440f-92b9-b1ff17f04653")
-		)
-		(pin "3"
-			(uuid "e4154d2d-a9b8-4746-87bf-074684819cd6")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 168.91 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f2c966-3545-4257-b7ef-cf86f4d510f9")
-		(property "Reference" "Q20"
-			(at 173.99 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 173.99 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 173.99 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f38db12-614b-48ea-9186-c6edeb778133")
-		)
-		(pin "2"
-			(uuid "b2db69db-12c2-4d83-9526-ffd5de3621e4")
-		)
-		(pin "3"
-			(uuid "0c0b8c0a-ca76-457c-a6ce-d2048c04bc64")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94fc6451-e61f-446e-8f8b-8f4ef36cc4c7")
-		(property "Reference" "R5"
-			(at 88.9 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3k"
-			(at 88.9 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 89.662 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 91.44 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71bac42e-ba7c-4c3f-a173-5963629e2818")
-		)
-		(pin "2"
-			(uuid "34175940-b8d9-422a-99ba-8789be75c02e")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96deb87b-9093-47fb-9ff7-50f2558daa09")
-		(property "Reference" "R7"
-			(at 156.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 156.21 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 151.892 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 153.67 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c2fc0da-a2d5-4e94-9bee-5bc04ecfd1f4")
-		)
-		(pin "2"
-			(uuid "34558e10-14d1-4300-831d-0ca813f7d9d0")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "981a0a70-c09d-4279-b375-1c57b6cb41bd")
-		(property "Reference" "R5"
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 173.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 169.672 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a2b8cbc-4757-48dd-a92f-7df81f2e3f35")
-		)
-		(pin "2"
-			(uuid "a2a0b2e0-8328-411d-8273-a372fc328219")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9af0966b-e886-46c1-8b8b-062af9ada40f")
-		(property "Reference" "R6"
-			(at 222.25 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 222.25 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 222.25 46.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1005fe1e-e792-496f-a896-69ab8b39d959")
-		)
-		(pin "2"
-			(uuid "4b397b98-c088-49e5-91fa-6973dfe50e91")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R22")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9784,7 +3097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf9531d-e7fd-4ff1-927b-dacb1aeffc29")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -9844,350 +3157,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 55.88 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f1aa15a-a8fa-4ade-9fe1-59c132af96b6")
-		(property "Reference" "Q13"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 60.96 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2781a8a5-b4c4-4027-84b2-3fac4d4380fd")
-		)
-		(pin "2"
-			(uuid "36b4e557-0871-4d74-ab4e-3d38cf813a46")
-		)
-		(pin "3"
-			(uuid "8944c496-a9f1-4bb9-9d4b-834133069928")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 168.91 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a27b9a29-b003-4b0f-b3e7-2d33213bf305")
-		(property "Reference" "Q13"
-			(at 173.99 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 173.99 92.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 173.99 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 168.91 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4635280c-3d8e-4c9b-9e35-fbc0e026e343")
-		)
-		(pin "2"
-			(uuid "354b5829-0a92-44bd-96f0-b29dac4039d1")
-		)
-		(pin "3"
-			(uuid "0297ef22-bdbc-4982-8ba9-5cbf111a4f00")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 100.33 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4bb136a-a615-4386-a1fc-5f839bbe8d4f")
-		(property "Reference" "#PWR05"
-			(at 100.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 100.33 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc5789d7-adca-4b31-964a-90effeb424f1")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR07")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10203,7 +3173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae89e9c6-2d8d-4c62-9b6c-8d3207931714")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR014"
 			(at 250.19 92.71 0)
 			(effects
 				(font
@@ -10254,7 +3224,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR032")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10336,7 +3306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0bf0ce3-6d84-48ca-807b-de98f13cf622")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR013"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -10386,7 +3356,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR031")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10402,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12e16b9-1d16-4131-ab5e-c12eae8408a9")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 20.32 29.21 0)
 			(effects
 				(font
@@ -10460,7 +3430,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10476,7 +3446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d43370-56df-46d1-b391-e72eeda74870")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 271.78 53.34 0)
 			(effects
 				(font
@@ -10536,108 +3506,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 123.19 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9e20a10-f059-4d6c-9451-959f2b53e790")
-		(property "Reference" "R5"
-			(at 123.19 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 123.19 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 123.19 181.102 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 16.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 16.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 123.19 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e38ed924-a46b-48d3-a5de-9a1ad2864e3f")
-		)
-		(pin "2"
-			(uuid "af361751-de52-4186-9cc0-d0b3302141b1")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R33")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -10704,78 +3573,6 @@
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be1d433c-f55d-4655-bb09-8659b4c32d12")
-		(property "Reference" "#PWR01"
-			(at 63.5 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 63.5 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74b67727-c701-4123-88c7-ba7fdfffde32")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10972,7 +3769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf229ae4-ea6a-4029-9f08-a21ba46bde52")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR08"
 			(at 25.4 158.75 0)
 			(effects
 				(font
@@ -11022,180 +3819,7 @@
 		(instances
 			(project ""
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 224.79 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0637d15-0f76-444a-9186-cf8d89d61743")
-		(property "Reference" "#PWR05"
-			(at 224.79 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 224.79 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9fa09f1-3a2a-47d6-b9d3-e27911522898")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d72b4349-2ef8-4b54-8e64-578a568e88ce")
-		(property "Reference" "R5"
-			(at 160.02 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 160.02 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 160.02 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 53.34 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 53.34 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e7cfb79-757f-4fc2-918d-3d01daf5537b")
-		)
-		(pin "2"
-			(uuid "0bde43e1-a27d-4591-8826-e2e616e2b456")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R28")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11285,7 +3909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8f63b9-2d79-473b-adde-8d6874c8bbba")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR012"
 			(at 142.24 15.24 0)
 			(effects
 				(font
@@ -11335,390 +3959,7 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "debd3b2e-9d93-47f6-8b4b-13325bf3005f")
-		(property "Reference" "R5"
-			(at 161.29 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 161.29 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 161.29 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 54.61 -93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 54.61 -93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 161.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e2feb54-a4a1-4006-902c-93649650c2f2")
-		)
-		(pin "2"
-			(uuid "715aca83-394c-4753-b2ce-19d2a233691e")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1b71b06-8fc1-44ee-9a0e-c807ecba4ca0")
-		(property "Reference" "#PWR06"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 173.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e425fa69-fac3-4d7b-9ea1-dba4df1dc0a4")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 58.42 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2234213-d4c2-49e9-9a03-2f228f487f13")
-		(property "Reference" "#PWR05"
-			(at 58.42 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 58.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e4b863d-9280-4421-97fc-90289aaa7c9b")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 134.62 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3449910-1f20-4ccd-a004-3fc9a8b72966")
-		(property "Reference" "Q13"
-			(at 139.7 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 139.7 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 139.7 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14280f12-3a44-4a95-b2e1-3f613eafd1b4")
-		)
-		(pin "2"
-			(uuid "9319aff6-245a-4d92-82bd-eebfa793cb06")
-		)
-		(pin "3"
-			(uuid "60a69732-95e0-46bf-b155-3dace1e538a0")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q5")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11799,308 +4040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 52.07 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaada660-8476-48c2-9649-d4a055b2c03d")
-		(property "Reference" "R1"
-			(at 54.61 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 54.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 50.292 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba63b1b3-abc5-49c3-94b8-dc5ffa1d1008")
-		)
-		(pin "2"
-			(uuid "247d2106-30de-4f43-9d20-71db4f89521d")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0f32734-e6dd-4623-8749-ba10aff90ed1")
-		(property "Reference" "#PWR05"
-			(at 146.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "926f9a8f-6aa6-42b4-9bed-42057d7daab4")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 213.36 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f28bd296-291b-40ff-9c9e-dcf1e1974b03")
-		(property "Reference" "Q20"
-			(at 218.44 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 218.44 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 213.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02699528-2327-41a7-9697-e01461110e2c")
-		)
-		(pin "2"
-			(uuid "9c4b0a28-7eff-4db3-99d7-289296a5e38e")
-		)
-		(pin "3"
-			(uuid "498cbdd6-590e-452e-b43a-97a5aed8df15")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q20")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 25.4 35.56 90)
 		(unit 1)
@@ -12110,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5482097-5679-4ae6-95b3-c9de8d39a53a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 31.75 35.56 0)
 			(effects
 				(font
@@ -12161,620 +4100,76 @@
 		(instances
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 181.61 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 133.35 170.18)
+		(size 30.48 10.16)
 		(fields_autoplaced yes)
-		(uuid "f72258f0-23b5-481d-a103-3c2bfbbf8b5c")
-		(property "Reference" "Q15"
-			(at 186.69 50.8 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67fd5552-853b-444b-a1e8-d0b78302ff23")
+		(property "Sheetname" "and-gate1"
+			(at 133.35 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates/and-gate.kicad_sch"
+			(at 133.35 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUTPUT" output
+			(at 163.83 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "424e66a2-9b0b-4781-8b21-94b4a7ac2315")
+		)
+		(pin "B" input
+			(at 133.35 176.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
+			(uuid "e08d2b9f-73f4-4c18-a675-3fa3ab2ef43f")
 		)
-		(property "Value" "NPN"
-			(at 186.69 53.34 0)
+		(pin "A" input
+			(at 133.35 172.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 186.69 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 181.61 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bd440ad-5c80-4194-836a-4a6ea8a710fb")
-		)
-		(pin "2"
-			(uuid "c17904c5-2a72-4189-8111-437fbe612d13")
-		)
-		(pin "3"
-			(uuid "2a92c7a6-05b2-4bc1-88b3-13eb9d2dcc32")
+			(uuid "808bb17d-93ef-41c1-ac74-a4c0806a7fd4")
 		)
 		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7acafd9-e446-4606-aecd-d512d359f7ce")
-		(property "Reference" "R5"
-			(at 124.46 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 124.46 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 124.46 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 17.78 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 17.78 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0150e506-cf63-405e-8988-65dc8e3586fd")
-		)
-		(pin "2"
-			(uuid "5f476f74-f6e8-4c5d-ab0d-22587658dbe2")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 196.85 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa494c83-7ae7-4b71-86d8-c205db176f2b")
-		(property "Reference" "Q2"
-			(at 201.93 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 201.93 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 201.93 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 196.85 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b9eb2ad-d61f-4965-b547-ac7d381bd9dc")
-		)
-		(pin "2"
-			(uuid "c02cd398-ff3e-485d-aad8-967d168570c2")
-		)
-		(pin "3"
-			(uuid "0f493e00-23ad-4d1f-9665-3b8559c28f0f")
-		)
-		(instances
-			(project "or-gate"
-				(path "/7e57cef9-1278-40f0-beb7-13a338e47a1e"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fad45be4-c42c-4ef1-b73c-e307e282ed14")
-		(property "Reference" "R5"
-			(at 60.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3k"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R0603:R0603"
-			(at 56.642 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 11.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 11.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C4211"
-			(at 58.42 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b2549d2-92a0-4902-a300-96dabaf8981c")
-		)
-		(pin "2"
-			(uuid "2ff599d6-db0d-44a5-a548-543c1fc9b839")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 151.13 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff07223b-0d76-42a3-b6a2-9bd65c9f8e0d")
-		(property "Reference" "Q7"
-			(at 156.21 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 156.21 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 156.21 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3DModel_Q" "62a57c6760504a01965db6419a6d07df"
-			(at 0 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_3D_Size" "2.5 2.9"
-			(at 0 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C239009"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db87f2a6-de5a-461e-a944-0366f72b2ceb")
-		)
-		(pin "2"
-			(uuid "4ba4a48f-414e-4625-bb16-4b77eeced081")
-		)
-		(pin "3"
-			(uuid "cf18302d-e754-494b-97d7-9743fb00804f")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "Q6")
-					(unit 1)
+					(page "12")
 				)
 			)
 		)
@@ -12843,6 +4238,210 @@
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 38.1)
+		(size 15.24 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ae6b3ee-29f0-4a20-9e44-32b28e8d9225")
+		(property "Sheetname" "xor-gate"
+			(at 67.31 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates/xor-gate.kicad_sch"
+			(at 67.31 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B" input
+			(at 67.31 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6e4d2f26-a2ab-4faa-af3b-bedd810aafe0")
+		)
+		(pin "A" input
+			(at 67.31 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b85cd61-d848-4296-92a3-6b7b13db9fd4")
+		)
+		(pin "OUTPUT" output
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a057027c-79c4-46f8-b7bb-dd559fe99429")
+		)
+		(instances
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 54.61)
+		(size 15.24 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6fa08ba-c5fb-43d8-850f-3e5322725fc3")
+		(property "Sheetname" "xor-gate1"
+			(at 134.62 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates/xor-gate.kicad_sch"
+			(at 134.62 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B" input
+			(at 134.62 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "48786425-a133-4382-a10e-3ece43c65281")
+		)
+		(pin "A" input
+			(at 134.62 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1292b38-0810-4e97-b784-0c6f0e77999d")
+		)
+		(pin "OUTPUT" output
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b26c3843-070b-4dfd-97a8-e2490324b2ec")
+		)
+		(instances
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 118.11)
+		(size 30.48 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e853c8d3-eefb-4fd9-b6d3-3d5bff45301a")
+		(property "Sheetname" "and-gate"
+			(at 128.27 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gates/and-gate.kicad_sch"
+			(at 128.27 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUTPUT" output
+			(at 158.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "967742b9-5eec-4602-8bd4-f274ba10b17d")
+		)
+		(pin "B" input
+			(at 128.27 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "078ad970-4fbf-487c-81f9-1a4b4be885dc")
+		)
+		(pin "A" input
+			(at 128.27 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2fe66ae1-4a39-4371-bd72-e0cc61605cf1")
+		)
+		(instances
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
+					(page "11")
 				)
 			)
 		)

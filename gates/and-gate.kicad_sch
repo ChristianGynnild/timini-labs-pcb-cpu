@@ -126,53 +126,32 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC547"
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at -2.54 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "BC547"
-				(at 5.08 0 0)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 63.5 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -180,7 +159,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "Sim.Device" "NPN"
 				(at 0 0 0)
 				(effects
 					(font
@@ -198,13 +186,40 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC547_0_1"
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -217,6 +232,30 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -271,8 +310,8 @@
 					)
 				)
 			)
-			(symbol "BC547_1_1"
-				(pin passive line
+			(symbol "NPN_1_1"
+				(pin open_collector line
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "C"
@@ -292,7 +331,7 @@
 				)
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -308,7 +347,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin open_emitter line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "E"
@@ -697,7 +736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e22b2e5-3065-4f44-8266-ea5c2b10ad35")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 115.57 111.7599 0)
 			(effects
 				(font
@@ -743,121 +782,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "f856f021-e7ae-4361-a7e8-2d5c3f34639a")
+			(uuid "d6c74cb5-499b-4f36-9d68-8f4d633fd231")
 		)
 		(pin "1"
-			(uuid "dec0c55a-2b4a-4b85-9591-b3cc1ab6239c")
+			(uuid "9f600eef-dd9f-42ae-82a1-55bca910f439")
 		)
 		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 110.49 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2276b379-b265-4d96-a6c3-d45ee9ceef88")
-		(property "Reference" "Q?"
-			(at 115.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 115.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 115.57 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 110.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d47bc5b3-ce3d-4c3e-af25-0e4cb8e0a8c2")
-		)
-		(pin "2"
-			(uuid "35b6b645-b421-4732-bf80-df0dcd837a87")
-		)
-		(pin "3"
-			(uuid "4c6343db-4549-445a-b81b-43ceb0c94f7b")
-		)
-		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e3a7758f-2396-4b20-995d-3e65a5a1ae96"
-					(reference "Q21")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "R30")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e92803bb-7c38-425f-80ed-3830fcd96359"
-					(reference "Q22")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "R27")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q19")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R15")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q20")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -873,7 +818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a71ff6c-19e3-40a3-beb8-7eb631ab352d")
-		(property "Reference" "R2"
+		(property "Reference" "R14"
 			(at 96.52 82.55 90)
 			(effects
 				(font
@@ -917,21 +862,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "94c61b3f-2ba9-48fc-8b7d-45aea9a0de04")
+			(uuid "5a48fea3-7905-41e4-ae22-3f054bb4943f")
 		)
 		(pin "1"
-			(uuid "d349efe0-63db-4e42-b8fa-226384868de8")
+			(uuid "46a643a3-58cc-4a66-ad50-405ef5ddc53c")
 		)
 		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R2")
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "R29")
 					(unit 1)
 				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "R?")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -947,7 +898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b85a8c1-342b-4e26-aaae-c82e9972a251")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR022"
 			(at 113.03 132.08 0)
 			(effects
 				(font
@@ -992,36 +943,136 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c9a2853-949f-4fcf-b6bf-8332ae038cab")
+			(uuid "78b1fe09-bc2c-464f-8aa1-a01c679c8bc2")
 		)
 		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e3a7758f-2396-4b20-995d-3e65a5a1ae96"
-					(reference "#PWR014")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e92803bb-7c38-425f-80ed-3830fcd96359"
-					(reference "#PWR016")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR06")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR022")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR010")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb23c45-cd85-4b3d-bf03-f1aff59b4b65")
+		(property "Reference" "Q17"
+			(at 115.57 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 115.57 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 173.99 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231e32d7-4aca-47a7-9689-381cefca3154")
+		)
+		(pin "3"
+			(uuid "ff6b4c0d-c6d8-4f34-9628-28a458f0e8d4")
+		)
+		(pin "2"
+			(uuid "63d857f2-da30-4051-b745-31a662244c32")
+		)
+		(instances
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "Q17")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "Q15")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -1037,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884f64ad-65ac-4bdd-83fd-0b203192185a")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 96.52 66.04 90)
 			(effects
 				(font
@@ -1081,21 +1132,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "f863575e-063c-4f6d-a97d-f04244da87c7")
+			(uuid "57340110-83da-47b8-929b-3f48a153f76e")
 		)
 		(pin "1"
-			(uuid "4b9e4788-8120-4ad0-addb-6d68599f383e")
+			(uuid "d1c52c7c-8f8e-417d-914b-c2c0a08e1a2c")
 		)
 		(instances
-			(project ""
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "R1")
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "R28")
 					(unit 1)
 				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "R?")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1111,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9adaf059-d3e4-4fa0-97f5-145ec435821b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -1156,43 +1213,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "25964b92-6c16-42b9-9e78-64f05f9ecf5d")
+			(uuid "59e06a88-0b56-4238-be17-b87284e1b705")
 		)
 		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e3a7758f-2396-4b20-995d-3e65a5a1ae96"
-					(reference "#PWR013")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
+					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e92803bb-7c38-425f-80ed-3830fcd96359"
-					(reference "#PWR015")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "#PWR029")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR05")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR021")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "#PWR09")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC547")
+		(lib_id "Simulation_SPICE:NPN")
 		(at 110.49 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1200,9 +1245,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a14caa21-4825-40b5-8c91-a729baaaf010")
-		(property "Reference" "Q?"
-			(at 115.57 87.63 0)
+		(uuid "d8f029cd-0c13-4e87-952c-16486d4ede0a")
+		(property "Reference" "Q18"
+			(at 115.57 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,8 +1255,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC547"
-			(at 115.57 90.17 0)
+		(property "Value" "NPN"
+			(at 115.57 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,28 +1264,34 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 115.57 90.805 0)
+		(property "Footprint" ""
+			(at 173.99 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
 			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Sim.Device" "NPN"
 			(at 110.49 88.9 0)
 			(effects
 				(font
@@ -1249,51 +1300,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "37a09b40-c4ab-40a4-a1aa-e3dfdbdcf8cb")
+		(property "Sim.Type" "GUMMELPOON"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 110.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "15660c7f-7bcd-4024-ab26-2d9382badaa0")
+			(uuid "e3e04dcb-98ff-4423-b07c-0903c867b785")
+		)
+		(pin "1"
+			(uuid "ae58fe12-3e27-4d61-8068-7c1610145526")
 		)
 		(pin "3"
-			(uuid "45a7ce35-9c98-4b0e-b667-3dc1eb763be3")
+			(uuid "0e020ff8-e223-4fdb-a685-9d5a08a818d8")
 		)
 		(instances
-			(project "and-gate"
-				(path "/3a921072-4f94-44ca-811b-6c49e6e7df63"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-			(project "xor-gate"
-				(path "/63e3086e-5f77-4607-bc67-4b6e4a9ee177/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
 			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e3a7758f-2396-4b20-995d-3e65a5a1ae96"
-					(reference "Q17")
-					(unit 1)
-				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e92803bb-7c38-425f-80ed-3830fcd96359"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/67fd5552-853b-444b-a1e8-d0b78302ff23"
 					(reference "Q18")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/29137efa-2cbb-4b26-94cf-0127fe654e5e/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q12")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/e853c8d3-eefb-4fd9-b6d3-3d5bff45301a"
+					(reference "Q16")
 					(unit 1)
 				)
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/dbe7fac6-3d6a-4481-b9c3-f6b25e3c84ad/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
-					(reference "Q13")
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/84309def-b1d1-4d08-9cf0-44a7dcd7d6e9"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
