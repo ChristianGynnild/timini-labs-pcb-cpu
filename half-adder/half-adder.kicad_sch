@@ -1180,12 +1180,6 @@
 		(uuid "64ab4241-f8a7-4fee-8b1f-c2e7b8cd8fcb")
 	)
 	(junction
-		(at 30.48 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a5c494e-99a8-45b6-8283-a3bf7f22be8c")
-	)
-	(junction
 		(at 25.4 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1214,12 +1208,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5485b8f-cbee-4f1a-a090-363a64782f42")
-	)
-	(junction
-		(at 38.1 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5ae087a-4ea8-4245-8ef8-557232c8f74b")
 	)
 	(junction
 		(at 114.3 128.27)
@@ -1309,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 41.91) (xy 30.48 74.93)
+			(xy 30.48 41.91) (xy 30.48 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 38.1 110.49)
+			(xy 38.1 46.99) (xy 38.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1429,16 +1417,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 74.93) (xy 30.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83aefad1-5135-4666-819d-43acd7f9897c")
-	)
-	(wire
-		(pts
 			(xy 114.3 128.27) (xy 120.65 128.27)
 		)
 		(stroke
@@ -1466,16 +1444,6 @@
 			(type default)
 		)
 		(uuid "94dd04d2-d601-4fcd-b7b3-58ecb8b4785d")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 168.91 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf3ba48-36e7-4af5-a464-96bc2c020fc7")
 	)
 	(wire
 		(pts
@@ -1569,16 +1537,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 83.82) (xy 67.31 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4dbe24-5c29-4ae9-815d-507808285c4b")
-	)
-	(wire
-		(pts
 			(xy 120.65 58.42) (xy 134.62 58.42)
 		)
 		(stroke
@@ -1649,16 +1607,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 46.99) (xy 38.1 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed142e3d-bf2a-41e5-a06f-6f8aa279d2ca")
-	)
-	(wire
-		(pts
 			(xy 25.4 120.65) (xy 38.1 120.65)
 		)
 		(stroke
@@ -1676,16 +1624,6 @@
 			(type default)
 		)
 		(uuid "f014dfb8-88d9-4a16-9ae7-061f8fdcd81e")
-	)
-	(wire
-		(pts
-			(xy 30.48 74.93) (xy 30.48 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f771c65f-c97a-4b52-b480-3ce6d8e8424e")
 	)
 	(wire
 		(pts
@@ -2910,82 +2848,6 @@
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 173.99 76.2 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65936b1b-8227-4660-9128-dcbecc919b90")
-		(property "Reference" "J8"
-			(at 176.53 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "test"
-			(at 176.53 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fa9b02c-dc1f-48ff-97de-4673f34b2aa5")
-		)
-		(instances
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4308,74 +4170,6 @@
 			(project "half-adder"
 				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
 					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 67.31 67.31)
-		(size 25.4 20.32)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "864f8334-4b49-4edd-8407-25c857aaba2d")
-		(property "Sheetname" "or-gate1"
-			(at 67.31 66.5984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../gates/or-gate.kicad_sch"
-			(at 67.31 88.2146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A" input
-			(at 67.31 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "08701859-c3d6-4fd4-be8b-37bdbb42331d")
-		)
-		(pin "B" input
-			(at 67.31 83.82 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ea0c28c3-dae2-4930-9caa-629513c73ff0")
-		)
-		(pin "OUTPUT" input
-			(at 92.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac50f6a5-28aa-4444-8ee8-65d0e952d386")
-		)
-		(instances
-			(project "half-adder"
-				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32"
-					(page "13")
 				)
 			)
 		)
