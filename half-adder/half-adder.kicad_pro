@@ -705,6 +705,10 @@
     [
       "67fd5552-853b-444b-a1e8-d0b78302ff23",
       "and-gate1"
+    ],
+    [
+      "864f8334-4b49-4edd-8407-25c857aaba2d",
+      "or-gate1"
     ]
   ],
   "text_variables": {}
