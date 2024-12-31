@@ -1,0 +1,508 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {},
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {},
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "control-unit.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "1cf3a7ee-ec47-45b6-b515-1840d726ab8f",
+      "Root"
+    ],
+    [
+      "92ec8f82-fb9c-43f9-a1b3-f52ba830af04",
+      "counter-with-decoder"
+    ],
+    [
+      "1729e72d-0a5c-4e1b-b42d-d139718932db",
+      "or-gate"
+    ],
+    [
+      "9b7a3fb7-9d9a-48c6-9356-84861d41b006",
+      "tripple-and-gate1"
+    ],
+    [
+      "a49778f8-bb5c-4854-a431-e9b4881a6cbd",
+      "tripple-and-gate2"
+    ],
+    [
+      "bb1403ab-6868-4243-9ba2-0aa4833cbaec",
+      "tripple-and-gate3"
+    ],
+    [
+      "6e1233d4-ebfb-4afc-b93f-0f0965dd65e2",
+      "tripple-and-gate4"
+    ],
+    [
+      "020249bf-5e28-4526-a135-e7e504fcd315",
+      "not-gate"
+    ],
+    [
+      "32697942-fb33-4fba-8e0d-2ff095b080bf",
+      "not-gate1"
+    ],
+    [
+      "b421555f-23f8-4bc1-97f9-21732f6fe247",
+      "not-gate2"
+    ],
+    [
+      "0384bfed-f155-4b67-acfd-5caa02b59c9d",
+      "not-gate3"
+    ],
+    [
+      "a7b12486-d12a-4d72-9c5c-eb0ac5d392f8",
+      "tripple-and-gate"
+    ],
+    [
+      "bf72169e-8a15-42c8-8b85-f99e3ad81676",
+      "and-gate1"
+    ],
+    [
+      "8e5bfa41-73a7-4155-87a5-165fccd714f6",
+      "or-gate1"
+    ],
+    [
+      "3b093a12-0540-43ca-8877-b58e062186b8",
+      "2bit-decoder"
+    ],
+    [
+      "b43e1f12-ded9-4a9a-8d49-1dd1b7916c52",
+      "tripple-and-gate5"
+    ],
+    [
+      "c8a705a0-2069-401b-9da5-dd7b4ad3fbcf",
+      "tripple-and-gate6"
+    ],
+    [
+      "afe538e2-7bea-4fa2-b7a8-fb9ecb0a3154",
+      "tripple-and-gate7"
+    ],
+    [
+      "23299fd6-bc29-45b2-a1e1-5777dcc52fbd",
+      "tripple-and-gate8"
+    ],
+    [
+      "0fc48953-2111-4879-91f3-de7a19ca0ce9",
+      "quintiple-and-gate"
+    ],
+    [
+      "26359086-ff71-45be-b2f3-6346ead43f2c",
+      "quadruple-and-gate"
+    ],
+    [
+      "d5b66add-9134-4e0d-946f-26228f39a156",
+      "and-gate"
+    ],
+    [
+      "d726c82d-969c-4483-8699-6a6c92b0add3",
+      "tripple-and-gate9"
+    ],
+    [
+      "72004cef-785e-4f83-b2f0-4eb1976ff5d3",
+      "or-gate2"
+    ],
+    [
+      "862b373d-048f-49c8-8545-52f35fa09436",
+      "quadruple-and-gate1"
+    ],
+    [
+      "b2ec3573-bf15-4e1d-8a02-9a033baafe0c",
+      "not-gate4"
+    ],
+    [
+      "278c9957-db07-49b7-a219-9ad715efd000",
+      "and-gate2"
+    ],
+    [
+      "de2e1405-3239-4ce6-b747-5c12d2d075a5",
+      "rising-edge"
+    ],
+    [
+      "293ab814-8224-438a-b8ef-17e439aa0d7e",
+      "and-gate3"
+    ],
+    [
+      "80b2507e-0011-4117-8a6b-d09ffa023d4d",
+      "not-gate5"
+    ]
+  ],
+  "text_variables": {}
+}

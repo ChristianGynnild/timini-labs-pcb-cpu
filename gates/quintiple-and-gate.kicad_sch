@@ -1,0 +1,80 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7d84b9f2-484c-47a5-b7d5-d4fb5d509d0c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "D"
+		(shape input)
+		(at 81.28 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31ec9e7b-06ca-4102-a258-1eee78ad3963")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 81.28 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55bfa6f9-b8b0-403b-a591-d62c3e92b1fb")
+	)
+	(hierarchical_label "OUTPUT"
+		(shape input)
+		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bef2ab3-1185-4739-bc70-3e0100c0e34d")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 81.28 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78d1b480-fa32-4e69-8d7f-f549f270d567")
+	)
+	(hierarchical_label "E"
+		(shape input)
+		(at 81.28 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db19c813-cdee-4287-b7e2-a863d6befd86")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 81.28 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4b96824-3abc-4e3a-8983-685d0d50bc00")
+	)
+)
