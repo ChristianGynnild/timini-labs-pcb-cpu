@@ -874,7 +874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d4dcae-bc0b-404a-8b77-6df0872a5063")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 134.62 78.74 0)
 			(effects
 				(font
@@ -936,6 +936,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -948,7 +962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c783e83-f276-45ea-bf21-b3330c0f4abf")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 137.16 81.2799 0)
 			(effects
 				(font
@@ -966,7 +980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R0603:R0603"
 			(at 132.842 82.55 90)
 			(effects
 				(font
@@ -985,6 +999,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 134.62 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -1014,6 +1055,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1026,7 +1081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52338068-397f-465d-aaee-fffde2ba87f0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 134.62 143.51 0)
 			(effects
 				(font
@@ -1088,6 +1143,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1100,7 +1169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75fd6415-3599-4135-8853-0c7ea4e7e432")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 111.76 107.95 90)
 			(effects
 				(font
@@ -1116,7 +1185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R0603:R0603"
 			(at 111.76 116.078 90)
 			(effects
 				(font
@@ -1135,6 +1204,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 111.76 114.3 0)
 			(effects
 				(font
@@ -1164,6 +1260,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "R4")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1176,7 +1286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760b6b53-908e-4a10-af9f-b2988ba725df")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -1192,7 +1302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R0603:R0603"
 			(at 113.03 103.378 90)
 			(effects
 				(font
@@ -1211,6 +1321,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -1240,6 +1377,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1252,7 +1403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff4b781-7954-4443-b82f-3a920df775ea")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -1314,6 +1465,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1326,7 +1491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcadf992-7906-4030-b9eb-ade1075aa0e2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -1388,6 +1553,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1400,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f19046-1d6d-43da-8ae2-989385baca68")
-		(property "Reference" "Q7"
+		(property "Reference" "Q1"
 			(at 129.54 100.3299 0)
 			(effects
 				(font
@@ -1418,7 +1597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 187.96 101.6 0)
 			(effects
 				(font
@@ -1464,6 +1643,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -1496,6 +1702,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1508,7 +1728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf9428ac-5121-40a9-9e1f-3abe64f90d33")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 162.56 80.0099 0)
 			(effects
 				(font
@@ -1526,7 +1746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R0603:R0603"
 			(at 158.242 81.28 90)
 			(effects
 				(font
@@ -1545,6 +1765,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 160.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -1574,6 +1821,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1586,7 +1847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da70d9db-e66c-42d4-a218-02e1a592cc43")
-		(property "Reference" "Q8"
+		(property "Reference" "Q2"
 			(at 146.05 113.0299 0)
 			(effects
 				(font
@@ -1604,7 +1865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 204.47 114.3 0)
 			(effects
 				(font
@@ -1650,6 +1911,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 140.97 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
 			(at 140.97 114.3 0)
 			(effects
 				(font
@@ -1682,6 +1970,20 @@
 					(unit 1)
 				)
 			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q5")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1694,7 +1996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b59288-11f1-4894-b1d9-dfa745648204")
-		(property "Reference" "Q9"
+		(property "Reference" "Q3"
 			(at 162.56 92.7099 0)
 			(effects
 				(font
@@ -1712,7 +2014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
 			(at 220.98 93.98 0)
 			(effects
 				(font
@@ -1766,6 +2068,33 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "65898390-e9bd-463e-bc8d-e4112116a0dc")
 		)
@@ -1787,6 +2116,20 @@
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/8e5bfa41-73a7-4155-87a5-165fccd714f6"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+			(project "half-adder"
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/8aa1bb44-718e-4bb1-afb0-d85b2c92e2af"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/9ae6b3ee-29f0-4a20-9e44-32b28e8d9225/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/88c27409-0a88-4cf1-8b65-cf7271709e32/c6fa08ba-c5fb-43d8-850f-3e5322725fc3/6a472948-f207-4f0d-abd5-7d037a9eb0b9"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
