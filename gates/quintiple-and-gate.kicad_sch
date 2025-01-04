@@ -369,9 +369,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -469,8 +469,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -489,9 +489,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -565,8 +565,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -898,7 +898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19344841-74db-4ba4-9ac3-540115a27ba1")
-		(property "Reference" "Q79"
+		(property "Reference" "Q52"
 			(at 120.65 81.2799 0)
 			(effects
 				(font
@@ -1009,7 +1009,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q79")
+					(reference "Q52")
 					(unit 1)
 				)
 			)
@@ -1025,7 +1025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e515a5e-5376-4d67-a392-d88018721b32")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR066"
 			(at 134.62 29.21 0)
 			(effects
 				(font
@@ -1060,7 +1060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 134.62 25.4 0)
 			(effects
 				(font
@@ -1075,7 +1075,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "#PWR091")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1091,7 +1091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365ee21d-6793-451c-afcd-47abd4970915")
-		(property "Reference" "R106"
+		(property "Reference" "R72"
 			(at 137.16 27.9399 0)
 			(effects
 				(font
@@ -1172,7 +1172,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R106")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -1188,7 +1188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a709dcf-833d-483b-b8a8-2b100c10b141")
-		(property "Reference" "R104"
+		(property "Reference" "R69"
 			(at 101.6 90.17 90)
 			(effects
 				(font
@@ -1267,7 +1267,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R104")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -1283,7 +1283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c7b5dce-b9e1-475a-a1e4-74a9b80d3d45")
-		(property "Reference" "Q81"
+		(property "Reference" "Q55"
 			(at 137.16 44.4499 0)
 			(effects
 				(font
@@ -1394,7 +1394,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q81")
+					(reference "Q55")
 					(unit 1)
 				)
 			)
@@ -1410,7 +1410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cb21a5e-bef6-4851-810f-2109c1c92aa3")
-		(property "Reference" "R102"
+		(property "Reference" "R67"
 			(at 101.6 63.5 90)
 			(effects
 				(font
@@ -1489,7 +1489,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R102")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -1505,7 +1505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83603b5c-2331-4b7d-a85c-92774ccd5320")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR064"
 			(at 118.11 39.37 0)
 			(effects
 				(font
@@ -1540,7 +1540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -1555,7 +1555,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "#PWR089")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1571,7 +1571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c861ae-d8a3-45f9-9c7f-25ed344fcfa7")
-		(property "Reference" "Q82"
+		(property "Reference" "Q54"
 			(at 120.65 110.4899 0)
 			(effects
 				(font
@@ -1682,7 +1682,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q82")
+					(reference "Q54")
 					(unit 1)
 				)
 			)
@@ -1698,7 +1698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "997f9202-0c87-44d2-a6dd-f571e9fe0972")
-		(property "Reference" "R101"
+		(property "Reference" "R66"
 			(at 101.6 46.99 90)
 			(effects
 				(font
@@ -1777,7 +1777,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R101")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -1793,7 +1793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bebb3e6-64bf-4d4d-8042-1b650dc8c369")
-		(property "Reference" "R107"
+		(property "Reference" "R70"
 			(at 101.6 105.41 90)
 			(effects
 				(font
@@ -1872,7 +1872,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R107")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -1888,7 +1888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae62a3e1-67d2-4982-a832-c4348126c8f7")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR067"
 			(at 134.62 60.96 0)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -1938,7 +1938,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "#PWR092")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a6e6a4-748a-4eca-9cf7-76b1424ba3f4")
-		(property "Reference" "Q80"
+		(property "Reference" "Q53"
 			(at 120.65 95.2499 0)
 			(effects
 				(font
@@ -2065,7 +2065,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q80")
+					(reference "Q53")
 					(unit 1)
 				)
 			)
@@ -2081,7 +2081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbdd9373-fa5f-41e2-b6dc-ad0f43b82c99")
-		(property "Reference" "Q77"
+		(property "Reference" "Q50"
 			(at 120.65 52.0699 0)
 			(effects
 				(font
@@ -2192,7 +2192,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q77")
+					(reference "Q50")
 					(unit 1)
 				)
 			)
@@ -2208,7 +2208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffcd133-1102-4f21-951e-9bb26d2382f2")
-		(property "Reference" "R103"
+		(property "Reference" "R68"
 			(at 101.6 76.2 90)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R103")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -2303,7 +2303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5da6b16-0af9-498c-a42b-ed432562088b")
-		(property "Reference" "Q78"
+		(property "Reference" "Q51"
 			(at 120.65 68.5799 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "Q78")
+					(reference "Q51")
 					(unit 1)
 				)
 			)
@@ -2430,7 +2430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f802b3f6-745b-4f20-8f25-746308ad6861")
-		(property "Reference" "R105"
+		(property "Reference" "R71"
 			(at 120.65 38.0999 0)
 			(effects
 				(font
@@ -2511,7 +2511,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "R105")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbba5403-592d-4da6-857b-82dc2a7e8b96")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR065"
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 118.11 125.73 0)
 			(effects
 				(font
@@ -2577,7 +2577,7 @@
 		(instances
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0fc48953-2111-4879-91f3-de7a19ca0ce9"
-					(reference "#PWR090")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
