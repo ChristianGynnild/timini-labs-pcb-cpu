@@ -538,10 +538,6 @@
       "tripple-and-gate9"
     ],
     [
-      "72004cef-785e-4f83-b2f0-4eb1976ff5d3",
-      "or-gate2"
-    ],
-    [
       "862b373d-048f-49c8-8545-52f35fa09436",
       "quadruple-and-gate1"
     ],
@@ -588,6 +584,10 @@
     [
       "77964015-ec89-42e0-893c-6358bdc5e5f2",
       "not-gate"
+    ],
+    [
+      "45cecedc-01c8-4aaa-b054-01794739aafb",
+      "triple-or-gate"
     ]
   ],
   "text_variables": {}

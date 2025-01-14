@@ -1524,6 +1524,17 @@
 		)
 		(uuid "175cc2d4-e3db-4dd2-bdfa-371b2d80d5cd")
 	)
+	(label "D2"
+		(at 135.89 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18354773-5f37-4f4c-92d2-5f31a29b5654")
+	)
 	(label "MI3"
 		(at 62.23 113.03 180)
 		(fields_autoplaced yes)
@@ -1711,17 +1722,6 @@
 		)
 		(uuid "49074b65-84f6-4526-9bd5-81f669a74ac6")
 	)
-	(label "NOT_D3"
-		(at 135.89 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4a64c91f-a567-4749-a1fb-1f8730f6766d")
-	)
 	(label "MI4"
 		(at 121.92 30.48 0)
 		(fields_autoplaced yes)
@@ -1754,6 +1754,17 @@
 			(justify right bottom)
 		)
 		(uuid "5ed04ca1-4641-4c6a-a7ec-61cbf549d385")
+	)
+	(label "ADD"
+		(at 222.25 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60d08546-2b6a-4958-97b4-d74a8568ceb4")
 	)
 	(label "STORE"
 		(at 257.81 60.96 180)
@@ -1920,16 +1931,16 @@
 		)
 		(uuid "900172db-804c-46bf-8299-6df24eebdcd5")
 	)
-	(label "NOT_D2"
-		(at 135.89 114.3 180)
+	(label "STORE_E"
+		(at 236.22 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9454dab1-8627-4cc6-b661-9f519ca965ab")
+		(uuid "90896b87-d08c-4a21-8985-9efb3b1e9662")
 	)
 	(label "NOT_D1"
 		(at 130.81 86.36 180)
@@ -2194,6 +2205,17 @@
 			(justify right bottom)
 		)
 		(uuid "e74c3063-c225-4a22-83b5-6b61a2eb87e5")
+	)
+	(label "D3"
+		(at 135.89 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec7d9336-8a68-4387-9702-389bc52351fe")
 	)
 	(label "MI3"
 		(at 121.92 27.94 0)
@@ -5322,6 +5344,84 @@
 		)
 	)
 	(sheet
+		(at 222.25 137.16)
+		(size 13.97 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45cecedc-01c8-4aaa-b054-01794739aafb")
+		(property "Sheetname" "triple-or-gate"
+			(at 222.25 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../gates/triple-or-gate.kicad_sch"
+			(at 222.25 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C" input
+			(at 222.25 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc50c064-8a0e-4d41-96cb-168ea533536f")
+		)
+		(pin "A" input
+			(at 222.25 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b7492ee-72bc-436b-8e8f-cdde2fe96c67")
+		)
+		(pin "OUTPUT" input
+			(at 236.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42a87d4a-ffda-4a01-a559-5c7e8c56ec5b")
+		)
+		(pin "B" input
+			(at 222.25 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "88dfe9fc-4645-4471-832e-83708204f935")
+		)
+		(instances
+			(project "control-unit"
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 62.23 144.78)
 		(size 16.51 7.62)
 		(fields_autoplaced yes)
@@ -5395,74 +5495,6 @@
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 222.25 135.89)
-		(size 12.7 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "72004cef-785e-4f83-b2f0-4eb1976ff5d3")
-		(property "Sheetname" "or-gate2"
-			(at 222.25 135.1784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../gates/or-gate.kicad_sch"
-			(at 222.25 144.0946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "OUTPUT" input
-			(at 234.95 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "69345979-fec5-4332-91b0-c102eb433874")
-		)
-		(pin "A" input
-			(at 222.25 138.43 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2393ef33-c31f-4253-a9f8-255fdbaf87c1")
-		)
-		(pin "B" input
-			(at 222.25 140.97 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "62e97f92-5887-454f-9b91-99a2d2f1d338")
-		)
-		(instances
-			(project "control-unit"
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
-					(page "23")
 				)
 			)
 		)
