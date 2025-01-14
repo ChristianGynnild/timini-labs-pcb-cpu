@@ -729,7 +729,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0fa3c254-6a21-40a9-b0fe-79bd0231d237")
+			(uuid "7d676e89-7998-4096-87a8-6367895da231")
 		)
 		(instances
 			(project "control-unit"
@@ -741,12 +741,12 @@
 					(reference "#PWR031")
 					(unit 1)
 				)
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c"
-					(reference "#PWR098")
-					(unit 1)
-				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/32697942-fb33-4fba-8e0d-2ff095b080bf"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5"
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/b2ec3573-bf15-4e1d-8a02-9a033baafe0c"
@@ -822,10 +822,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4397a46d-e013-4d09-9dd7-1fc8392fe2f4")
+			(uuid "9c4fff6a-618f-4aaf-97bc-c580b8b29b8a")
 		)
 		(pin "2"
-			(uuid "5ee8fa44-c817-4267-ac4c-9b81c5d5e9bf")
+			(uuid "826255f4-dcde-4c69-ae82-120c8cb5aea4")
 		)
 		(instances
 			(project "control-unit"
@@ -837,12 +837,12 @@
 					(reference "R31")
 					(unit 1)
 				)
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c"
-					(reference "R108")
-					(unit 1)
-				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/32697942-fb33-4fba-8e0d-2ff095b080bf"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5"
+					(reference "R108")
 					(unit 1)
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/b2ec3573-bf15-4e1d-8a02-9a033baafe0c"
@@ -920,10 +920,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3dd3c3aa-8869-4fd0-9cc2-765668cff8c2")
+			(uuid "4ac24cb7-0192-4be2-a3b5-70b262e93b45")
 		)
 		(pin "2"
-			(uuid "ffc2e4c5-c73a-4993-b402-4f5473eee7da")
+			(uuid "bbba3455-515a-4f71-9ab6-3f1cc6e6e563")
 		)
 		(instances
 			(project "control-unit"
@@ -935,12 +935,12 @@
 					(reference "R32")
 					(unit 1)
 				)
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c"
-					(reference "R109")
-					(unit 1)
-				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/32697942-fb33-4fba-8e0d-2ff095b080bf"
 					(reference "R28")
+					(unit 1)
+				)
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5"
+					(reference "R109")
 					(unit 1)
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/b2ec3573-bf15-4e1d-8a02-9a033baafe0c"
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e32858c-72ee-4cf6-9eb5-ba1df17a2332")
+			(uuid "f4c742ae-c9f8-481b-8d0a-52d498af9290")
 		)
 		(instances
 			(project "control-unit"
@@ -1029,12 +1029,12 @@
 					(reference "#PWR032")
 					(unit 1)
 				)
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c"
-					(reference "#PWR099")
-					(unit 1)
-				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/32697942-fb33-4fba-8e0d-2ff095b080bf"
 					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5"
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/b2ec3573-bf15-4e1d-8a02-9a033baafe0c"
@@ -1139,13 +1139,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "29bbe7a7-efb0-41da-8c2f-1171db8faddf")
+			(uuid "a8236c8c-7596-419a-8212-7dc16467b96b")
 		)
 		(pin "3"
-			(uuid "5efef8cf-ff58-4427-890e-211daa2c4a75")
+			(uuid "b4ae3a62-3498-4115-b973-2ebb8af12ef7")
 		)
 		(pin "1"
-			(uuid "fd2655ce-000f-47f7-8704-4d8b93cc190a")
+			(uuid "d55c3430-6db3-41e7-89d1-322d635cdcba")
 		)
 		(instances
 			(project "control-unit"
@@ -1157,12 +1157,12 @@
 					(reference "Q23")
 					(unit 1)
 				)
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c"
-					(reference "Q83")
-					(unit 1)
-				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/32697942-fb33-4fba-8e0d-2ff095b080bf"
 					(reference "Q21")
+					(unit 1)
+				)
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5"
+					(reference "Q83")
 					(unit 1)
 				)
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f/b2ec3573-bf15-4e1d-8a02-9a033baafe0c"

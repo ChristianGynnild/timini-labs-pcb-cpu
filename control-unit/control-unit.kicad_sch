@@ -737,6 +737,12 @@
 		(uuid "0f1934ef-abc9-4a99-8818-ab65360d94c3")
 	)
 	(junction
+		(at 193.04 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132f1623-d055-46b1-9255-b160424038f9")
+	)
+	(junction
 		(at 50.8 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -777,12 +783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be641ae5-5265-4ee6-a414-81ec623dca27")
-	)
-	(junction
-		(at 167.64 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d650c6ea-d2e9-41c9-8df4-553febc9534f")
 	)
 	(junction
 		(at 228.6 92.71)
@@ -854,6 +854,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 101.6) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cdebf77-c2d6-4d9f-8592-f5e06b4b88d2")
+	)
+	(wire
+		(pts
 			(xy 85.09 26.67) (xy 92.71 26.67)
 		)
 		(stroke
@@ -874,16 +884,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 138.43) (xy 167.64 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6e9e5a-f739-453e-97fe-12c14ed7347a")
-	)
-	(wire
-		(pts
 			(xy 50.8 58.42) (xy 54.61 58.42)
 		)
 		(stroke
@@ -901,16 +901,6 @@
 			(type default)
 		)
 		(uuid "21a0b695-7e6d-4c7f-97b0-982e6978536e")
-	)
-	(wire
-		(pts
-			(xy 187.96 156.21) (xy 195.58 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "241fb7ae-ab69-4230-a883-7126e3570c08")
 	)
 	(wire
 		(pts
@@ -954,16 +944,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 156.21) (xy 167.64 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332be6ba-0e23-4e5c-8866-e47c3a871ee6")
-	)
-	(wire
-		(pts
 			(xy 50.8 54.61) (xy 50.8 58.42)
 		)
 		(stroke
@@ -971,6 +951,16 @@
 			(type default)
 		)
 		(uuid "35a12da4-bee7-4efb-8f01-e03c38961b0c")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6b760b-d985-40ac-a1e0-1f7d84612850")
 	)
 	(wire
 		(pts
@@ -1004,7 +994,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 110.49) (xy 200.66 110.49)
+			(xy 186.69 110.49) (xy 193.04 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1134,6 +1124,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 110.49) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84028ebe-b34b-4aef-b31d-6e46e7012de1")
+	)
+	(wire
+		(pts
 			(xy 66.04 26.67) (xy 72.39 26.67)
 		)
 		(stroke
@@ -1231,6 +1231,16 @@
 			(type default)
 		)
 		(uuid "9f18bcb9-513d-4ae1-99a4-3b06f68074e6")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ad5c21-7c5a-4e4b-9a3b-f285b5f5d49b")
 	)
 	(wire
 		(pts
@@ -1639,7 +1649,7 @@
 		(uuid "1c447302-36ce-4a74-bf6f-4bba9b27d9fb")
 	)
 	(label "MI3"
-		(at 195.58 153.67 180)
+		(at 240.03 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2046,7 +2056,7 @@
 		(uuid "90896b87-d08c-4a21-8985-9efb3b1e9662")
 	)
 	(label "RESET_MI_COUNTER"
-		(at 210.82 154.94 0)
+		(at 255.27 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4880,64 +4890,6 @@
 		)
 	)
 	(sheet
-		(at 175.26 153.67)
-		(size 12.7 5.08)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c")
-		(property "Sheetname" "not-gate5"
-			(at 175.26 152.9584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../gates/not-gate.kicad_sch"
-			(at 175.26 159.3346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "A" input
-			(at 175.26 156.21 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "776a7d8b-429d-4f6f-be6d-265cff74c828")
-		)
-		(pin "OUTPUT" input
-			(at 187.96 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1af3db1a-62e6-4c4b-b6fd-6a2b6c159d47")
-		)
-		(instances
-			(project "control-unit"
-				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
-					(page "26")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 173.99 106.68)
 		(size 12.7 7.62)
 		(fields_autoplaced yes)
@@ -5660,7 +5612,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 152.4)
+		(at 240.03 97.79)
 		(size 15.24 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -5672,7 +5624,7 @@
 		)
 		(uuid "65814c19-d7d1-4643-b724-38dde43cc39f")
 		(property "Sheetname" "and-gate2"
-			(at 195.58 151.6884 0)
+			(at 240.03 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5633,7 @@
 			)
 		)
 		(property "Sheetfile" "../gates/and-gate.kicad_sch"
-			(at 195.58 158.0646 0)
+			(at 240.03 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5642,7 @@
 			)
 		)
 		(pin "OUTPUT" output
-			(at 210.82 154.94 0)
+			(at 255.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5652,7 @@
 			(uuid "f98e7744-a895-47bc-bc5b-74b536e71b72")
 		)
 		(pin "B" input
-			(at 195.58 156.21 180)
+			(at 240.03 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5662,7 @@
 			(uuid "90daa3be-1e52-4206-bc65-c432cbe25812")
 		)
 		(pin "A" input
-			(at 195.58 153.67 180)
+			(at 240.03 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,6 +5753,64 @@
 			(project "control-unit"
 				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 99.06)
+		(size 12.7 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "719f79b0-e11f-4ec5-8e6f-e4ca36d8bea5")
+		(property "Sheetname" "not-gate5"
+			(at 203.2 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../gates/not-gate.kicad_sch"
+			(at 203.2 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 203.2 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a31560c-24a9-4182-a8be-68ec31ec6127")
+		)
+		(pin "OUTPUT" input
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7213cb88-63cc-42a4-b6a8-f1e26c14f5a5")
+		)
+		(instances
+			(project "control-unit"
+				(path "/1cf3a7ee-ec47-45b6-b515-1840d726ab8f"
+					(page "26")
 				)
 			)
 		)
