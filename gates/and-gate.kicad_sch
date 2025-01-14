@@ -772,7 +772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9d6591-c40e-4e78-a844-7fe98258c458")
-		(property "Reference" "R41"
+		(property "Reference" "R135"
 			(at 132.08 46.9899 0)
 			(effects
 				(font
@@ -897,7 +897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a71ff6c-19e3-40a3-beb8-7eb631ab352d")
-		(property "Reference" "R39"
+		(property "Reference" "R133"
 			(at 96.52 82.55 90)
 			(effects
 				(font
@@ -1020,7 +1020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b85a8c1-342b-4e26-aaae-c82e9972a251")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0121"
 			(at 113.03 104.14 0)
 			(effects
 				(font
@@ -1114,7 +1114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb23c45-cd85-4b3d-bf03-f1aff59b4b65")
-		(property "Reference" "Q28"
+		(property "Reference" "Q99"
 			(at 115.57 71.1199 0)
 			(effects
 				(font
@@ -1269,7 +1269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68ca61d4-a055-4c5b-8374-e083f4f98621")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0123"
 			(at 129.54 80.01 0)
 			(effects
 				(font
@@ -1363,7 +1363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f7f6bb-1b82-440a-8170-dfc9f13c5556")
-		(property "Reference" "Q30"
+		(property "Reference" "Q101"
 			(at 132.08 63.4999 0)
 			(effects
 				(font
@@ -1518,7 +1518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "884f64ad-65ac-4bdd-83fd-0b203192185a")
-		(property "Reference" "R38"
+		(property "Reference" "R132"
 			(at 96.52 66.04 90)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9ca84c-da7e-4d1e-a951-5fcaac685604")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0122"
 			(at 129.54 48.26 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9adaf059-d3e4-4fa0-97f5-145ec435821b")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0120"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -1829,7 +1829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e380bb-d31a-40e9-a481-621720afc31c")
-		(property "Reference" "R40"
+		(property "Reference" "R134"
 			(at 115.57 57.1499 0)
 			(effects
 				(font
@@ -1954,7 +1954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f029cd-0c13-4e87-952c-16486d4ede0a")
-		(property "Reference" "Q29"
+		(property "Reference" "Q100"
 			(at 115.57 87.6299 0)
 			(effects
 				(font
