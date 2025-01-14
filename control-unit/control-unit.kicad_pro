@@ -454,8 +454,8 @@
       "counter-with-decoder"
     ],
     [
-      "1729e72d-0a5c-4e1b-b42d-d139718932db",
-      "or-gate"
+      "9a6a08b8-51c4-42bd-8872-9ac3fd41d639",
+      "triple-or-gate1"
     ],
     [
       "9b7a3fb7-9d9a-48c6-9356-84861d41b006",
@@ -498,7 +498,7 @@
       "and-gate1"
     ],
     [
-      "8e5bfa41-73a7-4155-87a5-165fccd714f6",
+      "06ce4733-15ef-423e-a1e9-3997a26399ed",
       "or-gate1"
     ],
     [
@@ -538,7 +538,11 @@
       "tripple-and-gate9"
     ],
     [
-      "862b373d-048f-49c8-8545-52f35fa09436",
+      "65814c19-d7d1-4643-b724-38dde43cc39f",
+      "and-gate2"
+    ],
+    [
+      "1afd9690-2ac9-40f0-bea1-84a36f56961e",
       "quadruple-and-gate1"
     ],
     [
@@ -546,20 +550,20 @@
       "not-gate4"
     ],
     [
-      "278c9957-db07-49b7-a219-9ad715efd000",
-      "and-gate2"
+      "0a07f7b2-55bf-4b3c-98ea-11a30bc78d1c",
+      "not-gate5"
     ],
     [
       "de2e1405-3239-4ce6-b747-5c12d2d075a5",
       "rising-edge"
     ],
     [
-      "293ab814-8224-438a-b8ef-17e439aa0d7e",
-      "and-gate3"
+      "0e061fb3-9551-40ee-adfa-be77b0b2601f",
+      "or-gate2"
     ],
     [
-      "80b2507e-0011-4117-8a6b-d09ffa023d4d",
-      "not-gate5"
+      "33a494bb-4cba-4bf9-b8ca-9005632185f4",
+      "and-gate3"
     ],
     [
       "5ddd5245-8b91-4791-8f70-df07f4e785df",
