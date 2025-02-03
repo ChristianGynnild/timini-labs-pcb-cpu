@@ -4,7 +4,377 @@
 	(generator_version "8.0")
 	(uuid "7f7dae21-63d5-41b9-b939-c8a822138003")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "SN74HC74N:SN74HC74N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SN74HC74N:PDIP-14_L19.3-W6.4-P2.54-LS7.6-BL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/cn/lit/gpn/sn74hc74"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Type:D-Type Trigger Type:Rising Edge Supply Voltage:2V~6V Supply Voltage:2V~6V Clock Frequency:60MHz Function:Positioning and resetting Number of Elements:2 Number of Bits per Element:1 Output Type:Complementary Type Maximum Propagation Delay:30ns@6V,50pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SN74HC74N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C2895"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "SN74HC74N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74HC74N_1_0"
+				(rectangle
+					(start -10.16 -10.16)
+					(end 10.16 10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "1CLR#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "2PRE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "2CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "2CLR#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "1D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "1CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "1PRE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "1Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "1Q#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "2Q#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "2Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(junction
 		(at 210.82 53.34)
 		(diameter 0)
@@ -346,6 +716,167 @@
 			(justify left)
 		)
 		(uuid "c0afbffc-bf5c-4b54-ba7f-4245407a6989")
+	)
+	(symbol
+		(lib_id "SN74HC74N:SN74HC74N")
+		(at 45.72 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af883ad-6da7-45fe-806a-04d4ad51495f")
+		(property "Reference" "U1"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SN74HC74N:PDIP-14_L19.3-W6.4-P2.54-LS7.6-BL"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/cn/lit/gpn/sn74hc74"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:D-Type Trigger Type:Rising Edge Supply Voltage:2V~6V Supply Voltage:2V~6V Clock Frequency:60MHz Function:Positioning and resetting Number of Elements:2 Number of Bits per Element:1 Output Type:Complementary Type Maximum Propagation Delay:30ns@6V,50pF"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SN74HC74N"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2895"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "SN74HC74N"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "d52823b5-f4d9-47e7-9960-f55338c5dcdb")
+		)
+		(pin "9"
+			(uuid "0851b509-4c6d-465b-9b02-98c70e4c2a7f")
+		)
+		(pin "11"
+			(uuid "73399652-f52a-4710-bb12-5746e7fd32a9")
+		)
+		(pin "5"
+			(uuid "f131cb21-82c7-48b2-a22f-d3ae6a51fc3e")
+		)
+		(pin "4"
+			(uuid "aca5f30d-ae23-4448-acce-181859b8d8cb")
+		)
+		(pin "8"
+			(uuid "3814b737-dfe9-4b51-9424-9ff847871576")
+		)
+		(pin "2"
+			(uuid "dc34c56d-8910-4c8c-9863-c933d760be6b")
+		)
+		(pin "12"
+			(uuid "a4d1551f-9f8c-4dda-9fae-c25775b5b728")
+		)
+		(pin "3"
+			(uuid "9114adb5-a4e4-4adb-8f76-968ffae68b81")
+		)
+		(pin "6"
+			(uuid "b137cc8a-f1cf-461a-86c6-17cf5acebdeb")
+		)
+		(pin "7"
+			(uuid "d5f15415-b59f-4e58-b9fd-37ee804b7871")
+		)
+		(pin "14"
+			(uuid "b01fa251-2c7b-41b0-80f2-df4c063c5000")
+		)
+		(pin "1"
+			(uuid "5badcda1-b59b-487b-9a44-53775c707254")
+		)
+		(pin "10"
+			(uuid "4d061124-4110-477b-abfb-a2e9752dc67e")
+		)
+		(instances
+			(project ""
+				(path "/176ebc34-d92d-46b0-a9f1-4fb76aa55196/1641c1b9-e3d9-452a-a206-0a4a18cb7a68"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/176ebc34-d92d-46b0-a9f1-4fb76aa55196/2b210005-c9ef-43dd-bd20-4304cf65b93c"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/176ebc34-d92d-46b0-a9f1-4fb76aa55196/475a755d-c11d-42bc-b5a5-c2bbb617acf6"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/176ebc34-d92d-46b0-a9f1-4fb76aa55196/510c109f-9f77-4fcd-9065-7421496291db"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 172.72 36.83)

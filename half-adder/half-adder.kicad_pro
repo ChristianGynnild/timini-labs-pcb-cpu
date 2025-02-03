@@ -661,50 +661,6 @@
     [
       "88c27409-0a88-4cf1-8b65-cf7271709e32",
       "Root"
-    ],
-    [
-      "8aa1bb44-718e-4bb1-afb0-d85b2c92e2af",
-      "or-gate"
-    ],
-    [
-      "9ae6b3ee-29f0-4a20-9e44-32b28e8d9225",
-      "xor-gate"
-    ],
-    [
-      "6a472948-f207-4f0d-abd5-7d037a9eb0b9",
-      "or-gate"
-    ],
-    [
-      "3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4",
-      "nand-gate"
-    ],
-    [
-      "84309def-b1d1-4d08-9cf0-44a7dcd7d6e9",
-      "and-gate"
-    ],
-    [
-      "c6fa08ba-c5fb-43d8-850f-3e5322725fc3",
-      "xor-gate1"
-    ],
-    [
-      "3c6c3515-201d-4b02-b79f-e9c4c0dfa7c4",
-      "nand-gate"
-    ],
-    [
-      "6a472948-f207-4f0d-abd5-7d037a9eb0b9",
-      "or-gate"
-    ],
-    [
-      "84309def-b1d1-4d08-9cf0-44a7dcd7d6e9",
-      "and-gate"
-    ],
-    [
-      "e853c8d3-eefb-4fd9-b6d3-3d5bff45301a",
-      "and-gate"
-    ],
-    [
-      "67fd5552-853b-444b-a1e8-d0b78302ff23",
-      "and-gate1"
     ]
   ],
   "text_variables": {}
