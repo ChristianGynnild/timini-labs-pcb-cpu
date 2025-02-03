@@ -1,0 +1,1839 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "de79dc3d-acac-4a4f-93d2-25143d524f12")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(hierarchical_label "+5V (read enable?)"
+		(shape input)
+		(at 394.97 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1783122a-49b9-44b3-aca0-5606b7683c9f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 394.97 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d450920-4de1-4abf-b4e5-f9e3f855cb29")
+	)
+	(hierarchical_label "Adress digit 1"
+		(shape input)
+		(at 384.81 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "615f4f5f-e19b-47d5-a051-5f4565081703")
+	)
+	(hierarchical_label "Adress digit 4"
+		(shape input)
+		(at 384.81 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c44ec480-c975-45cf-981f-714489e0026d")
+	)
+	(hierarchical_label "Adress digit 2"
+		(shape input)
+		(at 384.81 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d73ce914-02f4-4e8e-b544-5be7b2785d87")
+	)
+	(hierarchical_label "Adress digit 8"
+		(shape input)
+		(at 384.81 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edf7636c-bedf-4af0-bfdf-b46e2710f5d2")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 361.95 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f310e758-bcb3-41b3-8981-2ffc41b2b63b")
+		(property "Reference" "R17"
+			(at 364.49 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 364.49 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.728 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 361.95 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7017ce28-9c81-4945-9487-cc33061eaf58")
+		)
+		(pin "2"
+			(uuid "b0f8eb78-a312-4b13-a981-b6d68dc850f3")
+		)
+		(instances
+			(project ""
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0819516a-0307-481e-b803-29ceb689b6cb")
+		(property "Sheetname" "adress 2"
+			(at 74.2184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 88.2146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 83.82 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec0e5ca6-5ef5-4cbe-be72-dd274cc69bf8")
+		)
+		(pin "2" output
+			(at 82.55 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "882bc1eb-eb48-41eb-992d-39b89606bc00")
+		)
+		(pin "4" output
+			(at 80.01 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0680b34e-531f-4450-901a-fe0284e31663")
+		)
+		(pin "8" output
+			(at 77.47 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6be21b4f-0dbd-4f0b-8e2f-38939d729313")
+		)
+		(pin "1" output
+			(at 85.09 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3304496-2265-4bbc-8b83-7d45ca822837")
+		)
+		(pin "GND" output
+			(at 78.74 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cca78a4b-d571-4dbe-a7f6-cd76c90f80d5")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "170c7e5f-a6f0-4c83-a039-36eb79b40bdf")
+		(property "Sheetname" "adress 6"
+			(at 150.4184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 164.4146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 160.02 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49447dee-3bda-45d4-aed6-54d01fdc0174")
+		)
+		(pin "2" output
+			(at 158.75 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f50df8f6-575d-4611-8a29-da5ccaa267b6")
+		)
+		(pin "4" output
+			(at 156.21 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad3c9501-7fb1-47a7-9afc-5f5f4153297b")
+		)
+		(pin "8" output
+			(at 153.67 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0bc7330a-7791-48da-9b1f-4d871806d7c2")
+		)
+		(pin "1" output
+			(at 161.29 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6775ffcf-4b29-4bcf-b616-50a7f1d1879f")
+		)
+		(pin "GND" output
+			(at 154.94 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "408acb73-0d31-4c8e-804a-442b1660bd4e")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 265.43 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20ed717b-e063-48f3-9e4a-ae4f02b86575")
+		(property "Sheetname" "adress 12"
+			(at 264.7184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 278.7146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 274.32 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "352b7f74-b894-4e4f-b79a-58f0a53cb016")
+		)
+		(pin "2" output
+			(at 273.05 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "539041ac-20ed-4e93-8f1c-cb9c8f49a6f7")
+		)
+		(pin "4" output
+			(at 270.51 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88f5dea8-399b-4051-8dbb-53b25ff4bea3")
+		)
+		(pin "8" output
+			(at 267.97 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3cc87a-888d-4d48-abe9-848533d75fcc")
+		)
+		(pin "1" output
+			(at 275.59 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d497f77f-5e75-4404-8125-3340b86eb47c")
+		)
+		(pin "GND" output
+			(at 269.24 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6ff3caf-2a87-4b6f-9358-0d8649f78b99")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 227.33 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "435b1d37-4236-4041-a799-3095c7cf64aa")
+		(property "Sheetname" "adress 10"
+			(at 226.6184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 240.6146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 236.22 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca779db2-e961-42c1-8bea-5606ffa3bc5e")
+		)
+		(pin "2" output
+			(at 234.95 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91fd9cb0-9ba5-4b11-8d66-d3551fccf9a0")
+		)
+		(pin "4" output
+			(at 232.41 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c843d80c-997a-44e2-a33c-2e18752f7ecd")
+		)
+		(pin "8" output
+			(at 229.87 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9a4ae6b-d01b-41e0-8c82-a376deabfc3c")
+		)
+		(pin "1" output
+			(at 237.49 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb3b421b-8641-4fca-8105-3029c035f7de")
+		)
+		(pin "GND" output
+			(at 231.14 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba2e377e-f4fa-418b-affd-f4c0e94c56df")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "552a1508-12a6-4540-8e62-03ffa95c2ac2")
+		(property "Sheetname" "adress 0"
+			(at 36.1184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 50.1146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 45.72 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2aedfba-e234-452c-b11e-427917e93ffa")
+		)
+		(pin "2" output
+			(at 44.45 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8404de8d-e829-4d6e-b3b0-4bc24326b1a5")
+		)
+		(pin "4" output
+			(at 41.91 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "179179e9-49a8-4c2d-a3bb-77a159e5082a")
+		)
+		(pin "8" output
+			(at 39.37 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0267147-cee6-4c80-b2af-74e81336f6d1")
+		)
+		(pin "1" output
+			(at 46.99 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a599ff5-3517-4d24-a1ce-156ad9ec4f7c")
+		)
+		(pin "GND" output
+			(at 40.64 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc57bf62-e0c0-4d43-bc0c-1f05bdae4010")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 303.53 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "76d29768-7d3c-4dee-9029-df910d5e3c15")
+		(property "Sheetname" "adress 14"
+			(at 302.8184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 316.8146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 312.42 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "43fef043-9c0f-4957-a4fc-6779c7f057a0")
+		)
+		(pin "2" output
+			(at 311.15 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a50448ed-8f45-420d-a5c0-37601736a34d")
+		)
+		(pin "4" output
+			(at 308.61 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2634f5c-a4a1-4684-8cdf-e2ff642295c8")
+		)
+		(pin "8" output
+			(at 306.07 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d4b741eb-295f-4da6-9c44-ca1370149fd8")
+		)
+		(pin "1" output
+			(at 313.69 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca431a67-5580-4e9e-bf7d-2d819a5567c6")
+		)
+		(pin "GND" output
+			(at 307.34 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f5a5d69c-9c10-4c16-8116-24ac7e735ba5")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "83c8ec56-128c-4c0e-92b6-f49d6b3d1792")
+		(property "Sheetname" "adress 11"
+			(at 245.6684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 259.6646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 255.27 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52905e7b-c303-4f48-a3bb-aaaeac304c0e")
+		)
+		(pin "2" output
+			(at 254 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe15c771-b95e-4dea-b16b-4f7dfae33227")
+		)
+		(pin "4" output
+			(at 251.46 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55e0b7ec-7a63-4c49-a171-d4e45f35874c")
+		)
+		(pin "8" output
+			(at 248.92 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a767e6d-8e21-4412-80d3-b015aa7261d4")
+		)
+		(pin "1" output
+			(at 256.54 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "616065be-2cb5-4de2-b158-6205a3a1e833")
+		)
+		(pin "GND" output
+			(at 250.19 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f15808a6-cc43-47c6-b152-b75331331cb2")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97b2d7af-4c43-409c-8585-663895dee499")
+		(property "Sheetname" "adress 5"
+			(at 131.3684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 145.3646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 140.97 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5813d497-bfc3-41e5-add6-53ed303aeff8")
+		)
+		(pin "2" output
+			(at 139.7 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "516abf57-7ba4-48dc-b702-af5970fbfdde")
+		)
+		(pin "4" output
+			(at 137.16 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "124e78dd-7ad2-4e00-beb3-a2005b06da8e")
+		)
+		(pin "8" output
+			(at 134.62 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c7da139-c6cf-4f7a-ba1e-9c0a556178b8")
+		)
+		(pin "1" output
+			(at 142.24 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "50237f4b-c891-4d1a-a454-9fa3017ca2c0")
+		)
+		(pin "GND" output
+			(at 135.89 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d21865a2-0d8f-450c-8a9a-7960428af9d0")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1bf3473-3513-4c28-b747-12d1df54821a")
+		(property "Sheetname" "adress 4"
+			(at 112.3184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 126.3146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 121.92 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56931bda-7321-42c5-bfc4-d69dbf67e3f6")
+		)
+		(pin "2" output
+			(at 120.65 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9182f45f-d309-41ac-8dcb-8a6f36988df6")
+		)
+		(pin "4" output
+			(at 118.11 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7927bdbe-8abb-4970-adc0-b12a88dcc5e9")
+		)
+		(pin "8" output
+			(at 115.57 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5029ae32-9389-4a8d-9caf-7e587a6bbf25")
+		)
+		(pin "1" output
+			(at 123.19 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06901851-4cfa-4f73-9294-d7b7b103bf54")
+		)
+		(pin "GND" output
+			(at 116.84 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60ab1fa8-6786-46e3-b117-63c3035fc01d")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf7ad9f7-edbe-4500-a046-0920cf58110a")
+		(property "Sheetname" "adress 1"
+			(at 55.1684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 69.1646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 64.77 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1eeff95a-b0a6-4eb5-ac3d-8c8292929392")
+		)
+		(pin "2" output
+			(at 63.5 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97e1f509-cb27-41ff-94b5-819201efbae3")
+		)
+		(pin "4" output
+			(at 60.96 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3a32614-f7d5-47ef-a0e9-bd2b89f352f0")
+		)
+		(pin "8" output
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b0b4e44b-aaa2-40bf-b11b-36b0d0ec73a6")
+		)
+		(pin "1" output
+			(at 66.04 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85a04218-05ca-42d1-829a-e8c1b39edbfa")
+		)
+		(pin "GND" output
+			(at 59.69 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5b9c76a6-b837-4e60-888b-1bdc94af7549")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 322.58 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d127f1d9-8eaa-4bcb-879f-93707bf1d493")
+		(property "Sheetname" "adress 15"
+			(at 321.8684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 335.8646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 331.47 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81fae0ca-3c35-4fe8-94b8-ceeaa8413be8")
+		)
+		(pin "2" output
+			(at 330.2 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "745dd3d0-4fba-42b7-aed9-3ef78975c300")
+		)
+		(pin "4" output
+			(at 327.66 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6ff619d-9dca-4c0b-8eac-7ff379722ca8")
+		)
+		(pin "8" output
+			(at 325.12 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4147e9a2-2019-49eb-9492-c10a44c3b099")
+		)
+		(pin "1" output
+			(at 332.74 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cf0afd9-b3cd-42a6-ba6f-cec15c4ac542")
+		)
+		(pin "GND" output
+			(at 326.39 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55e08944-efd0-43d9-a7d2-7ba45beba7f6")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da2f9634-4bd1-4d61-a233-0b19517345c1")
+		(property "Sheetname" "adress 3"
+			(at 93.2684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 107.2646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 102.87 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "941e3526-603e-4616-b2e7-cb9f9fb5c7cd")
+		)
+		(pin "2" output
+			(at 101.6 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a825287d-3100-466f-b1fa-2bcc99f554da")
+		)
+		(pin "4" output
+			(at 99.06 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "498b502c-4603-4eba-8d14-d91840bf0db5")
+		)
+		(pin "8" output
+			(at 96.52 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "866d54f3-9af1-443d-bda3-9227f6459de9")
+		)
+		(pin "1" output
+			(at 104.14 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16a60c41-e622-40af-8fcd-e52dffddb612")
+		)
+		(pin "GND" output
+			(at 97.79 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e403288-3fda-4a3c-a996-d10b7643789c")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfc2a75d-f059-4b64-a737-247b170930f1")
+		(property "Sheetname" "adress 8"
+			(at 188.5184 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 202.5146 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 198.12 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab0faea2-bdc4-4b93-955b-943bc477c972")
+		)
+		(pin "2" output
+			(at 196.85 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e2131089-ac10-4d2e-b952-3fbd4fe73abd")
+		)
+		(pin "4" output
+			(at 194.31 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98b9069f-4c27-42a7-aefe-0e65c1723a3b")
+		)
+		(pin "8" output
+			(at 191.77 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9de1581e-46d1-49ef-92a1-66f59c67911a")
+		)
+		(pin "1" output
+			(at 199.39 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "689231b0-602c-4b37-b784-1c3e06b2b2f2")
+		)
+		(pin "GND" output
+			(at 193.04 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed93951f-2988-4b4f-92fd-148e2d6ed8ce")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4b8cf20-5601-4b7f-ab6d-67e6681c406d")
+		(property "Sheetname" "adress 13"
+			(at 283.7684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 297.7646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 293.37 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0321565c-bc63-4906-8880-345bb869a11a")
+		)
+		(pin "2" output
+			(at 292.1 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a15cc20b-b8c6-4f1f-a06e-224e89be81ac")
+		)
+		(pin "4" output
+			(at 289.56 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "684c4dcf-9f96-4f9d-b98d-a6c0086a1408")
+		)
+		(pin "8" output
+			(at 287.02 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea5b1ed3-2b89-4c6e-a9ac-1f1e4be6d283")
+		)
+		(pin "1" output
+			(at 294.64 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cb3fd27-7336-48dd-90f2-48ff49c992f3")
+		)
+		(pin "GND" output
+			(at 288.29 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fb75df8-6f22-411d-bd0d-a068d15f04d0")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f477943c-4fa3-4252-8424-effe8cf21c44")
+		(property "Sheetname" "adress 7"
+			(at 169.4684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 183.4646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 179.07 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6664df43-61ef-4b7d-a102-4c7bf6e3d1d1")
+		)
+		(pin "2" output
+			(at 177.8 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e68cb6bf-c154-4c35-8405-7bf7c984177b")
+		)
+		(pin "4" output
+			(at 175.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5f1499d8-bdae-4cb5-a42f-b97df89b778b")
+		)
+		(pin "8" output
+			(at 172.72 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a29531f1-4198-452f-855b-a877402ba8f7")
+		)
+		(pin "1" output
+			(at 180.34 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6b352b50-0bae-49ae-9def-f5a937b7bbce")
+		)
+		(pin "GND" output
+			(at 173.99 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57a51449-f4ff-4e02-a4d4-619e5482c1c8")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 137.16)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4ab2eac-88a3-4b9a-9b25-003c1dcf3992")
+		(property "Sheetname" "adress 9"
+			(at 207.5684 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4bSW_registor.kicad_sch"
+			(at 221.5646 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V in" input
+			(at 217.17 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3609cc0c-4f7e-4405-8294-a3b1e55ee434")
+		)
+		(pin "2" output
+			(at 215.9 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8a74393-5964-4162-9b99-fddb8ff83108")
+		)
+		(pin "4" output
+			(at 213.36 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bbecf46b-6417-4dfb-8121-8104afe80e66")
+		)
+		(pin "8" output
+			(at 210.82 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44fb484b-7dae-43da-8fb2-60c22eabd587")
+		)
+		(pin "1" output
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "626b9cc1-f528-4d2b-a7e9-300285ba7ff3")
+		)
+		(pin "GND" output
+			(at 212.09 153.67 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf512deb-e47b-4ca8-96fb-2e72ce30f16d")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
