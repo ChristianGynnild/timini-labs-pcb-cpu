@@ -1,0 +1,56 @@
+Info: Processing symbol 'U1:'.
+Info: Processing symbol 'U13:'.
+Info: Processing symbol 'U2:'.
+Info: Processing symbol 'U9:'.
+Info: Processing symbol 'U3:'.
+Info: Processing symbol 'U12:'.
+Info: Processing symbol 'U4:'.
+Info: Processing symbol 'U10:'.
+Info: Processing symbol 'U5:ALU:ALU F'.
+Info: Processing symbol 'U6:'.
+Info: Processing symbol 'U14:'.
+Info: Processing symbol 'U7:'.
+Info: Processing symbol 'U11:'.
+Info: Processing symbol 'U8:'.
+Info: Processing symbol 'U15:'.
+Info: Processing symbol 'U16:'.
+Info: Processing symbol 'U17:'.
+Info: Processing symbol 'U18:'.
+Info: Processing symbol 'U19:'.
+Info: Processing symbol 'U20:'.
+Info: Processing symbol 'U21:'.
+Info: Processing symbol 'U22:'.
+Info: Processing symbol 'U23:'.
+Info: Processing symbol 'U24:'.
+Info: Processing symbol 'U25:'.
+Info: Processing symbol 'U26:'.
+Info: Processing symbol 'U27:'.
+Error: Cannot add U1 (no footprint assigned).
+Error: Cannot add U15 (no footprint assigned).
+Error: Cannot add U2 (no footprint assigned).
+Error: Cannot add U16 (no footprint assigned).
+Error: Cannot add U3 (no footprint assigned).
+Error: Cannot add U17 (no footprint assigned).
+Error: Cannot add U4 (no footprint assigned).
+Error: Cannot add U18 (no footprint assigned).
+Error: Cannot add U6 (no footprint assigned).
+Error: Cannot add U19 (no footprint assigned).
+Error: Cannot add U7 (no footprint assigned).
+Error: Cannot add U20 (no footprint assigned).
+Error: Cannot add U8 (no footprint assigned).
+Error: Cannot add U21 (no footprint assigned).
+Error: Cannot add U9 (no footprint assigned).
+Error: Cannot add U22 (no footprint assigned).
+Error: Cannot add U10 (no footprint assigned).
+Error: Cannot add U23 (no footprint assigned).
+Error: Cannot add U11 (no footprint assigned).
+Error: Cannot add U24 (no footprint assigned).
+Error: Cannot add U12 (no footprint assigned).
+Error: Cannot add U25 (no footprint assigned).
+Error: Cannot add U13 (no footprint assigned).
+Error: Cannot add U26 (no footprint assigned).
+Error: Cannot add U14 (no footprint assigned).
+Error: Cannot add U27 (no footprint assigned).
+
+
+Info: Total warnings: 0, errors: 26.
