@@ -1,0 +1,1730 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fdf140e8-12bf-443c-a4e1-f57654735044")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74AHC1G08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G08"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single AND Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate AND LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC1G08_0_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHC1G08_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AHC1G32"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G32"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single OR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate OR LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC1G32_0_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHC1G32_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AHC1G86"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AHC1G86"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate XOR LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74AHC1G86_0_1"
+				(arc
+					(start -8.89 5.08)
+					(mid -6.7858 0)
+					(end -8.89 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AHC1G86_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 41.91 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de5f91f-df28-4915-81a1-2168b8de17f3")
+	)
+	(junction
+		(at 191.77 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "289e8bee-3802-4546-b846-cef8218bdfd7")
+	)
+	(junction
+		(at 36.83 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560f22f5-3d52-4797-8b6e-6baad9baa121")
+	)
+	(junction
+		(at 115.57 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "569a35e9-198a-4310-9c53-9a67b7376f75")
+	)
+	(junction
+		(at 71.12 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5a23bb-ac0e-4389-bee2-ef6a2c4aa515")
+	)
+	(junction
+		(at 74.93 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a37b598-2d7f-4d00-8169-cf12236174ab")
+	)
+	(junction
+		(at 57.15 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98aa6e20-72e1-4af2-90c3-b3d7a7680e2d")
+	)
+	(junction
+		(at 95.25 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a125f948-d6c2-4a6d-9a5c-6dc2bad3420d")
+	)
+	(junction
+		(at 115.57 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a669e105-e899-48f9-a152-0699e26b1865")
+	)
+	(junction
+		(at 71.12 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed454545-29b0-4356-8fcb-7b0011f944e1")
+	)
+	(junction
+		(at 80.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef793385-f29e-4588-8ec4-698feb06197d")
+	)
+	(junction
+		(at 95.25 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3921c14-ae96-4f28-9595-8df1b96cdf20")
+	)
+	(wire
+		(pts
+			(xy 204.47 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a6f7a6-ac91-4199-9bb7-148bb446ffb9")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ced5168-ce3a-4199-b78d-3e9fa6d9307a")
+	)
+	(wire
+		(pts
+			(xy 36.83 78.74) (xy 36.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed82689-89f3-4408-842d-7fe7e8464a77")
+	)
+	(wire
+		(pts
+			(xy 57.15 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f90b6fc-f7a1-4f45-9265-f47f8d24cd4d")
+	)
+	(wire
+		(pts
+			(xy 26.67 53.34) (xy 36.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125d7460-b991-481d-9ac7-6a6a4e2d9ec6")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 41.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1466463e-2ea2-42f0-8dde-1b9262baf085")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f0d93d-4699-4ccc-a304-3ba3e5e1671f")
+	)
+	(wire
+		(pts
+			(xy 95.25 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2999b19e-d29f-4823-8f0d-abe85f762ca9")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 80.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b08dfd9-c47d-41dc-ba14-54043652de83")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0cbf05-b5bb-4f20-9cd6-6f8c3adb5fe6")
+	)
+	(wire
+		(pts
+			(xy 71.12 29.21) (xy 71.12 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31326038-5bc1-434a-afc9-b886cc9cd10a")
+	)
+	(wire
+		(pts
+			(xy 74.93 39.37) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3724b4cb-e3c5-4711-b26c-10febd532c65")
+	)
+	(wire
+		(pts
+			(xy 71.12 91.44) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434b8b28-5f89-4cd5-90b3-fe033ee040a4")
+	)
+	(wire
+		(pts
+			(xy 95.25 52.07) (xy 95.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cfa412-7cc2-4638-96da-d423aeee557e")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 36.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f30fcc-b166-48c0-b2b0-e41dd756f66c")
+	)
+	(wire
+		(pts
+			(xy 198.12 41.91) (xy 198.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f26678-b6df-40af-9133-f95c1b034da3")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "725529d3-fba3-40ea-bf31-54297b3f8339")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 80.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d7531f-0853-42f0-9c6c-458e3a3df5fc")
+	)
+	(wire
+		(pts
+			(xy 26.67 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b428047-90d2-4d0e-889f-bf04d736644d")
+	)
+	(wire
+		(pts
+			(xy 57.15 99.06) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8278b90a-5754-4414-9293-9dd230a1ab7c")
+	)
+	(wire
+		(pts
+			(xy 26.67 57.15) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83232036-85e5-46cd-99af-5ed0b9f5a579")
+	)
+	(wire
+		(pts
+			(xy 95.25 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b1a4a4-a667-47ca-aa8b-9e07d0219915")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdfa209-8dbf-4a39-ac5f-eebd6e973260")
+	)
+	(wire
+		(pts
+			(xy 176.53 81.28) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2f10b7-7b4e-4755-9408-1fc6783b4831")
+	)
+	(wire
+		(pts
+			(xy 191.77 69.85) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958732c8-f323-4123-8a11-d2408264c8ea")
+	)
+	(wire
+		(pts
+			(xy 26.67 49.53) (xy 26.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d1329f-4386-456c-9fc3-09e035a4d0ea")
+	)
+	(wire
+		(pts
+			(xy 71.12 99.06) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dc8883-8b6f-4598-990d-13f1f5559e2b")
+	)
+	(wire
+		(pts
+			(xy 95.25 31.75) (xy 95.25 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f900e55-b76d-421f-b7a5-843130282611")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fe4844-f1ea-4f8e-97a7-b69ec0902db6")
+	)
+	(wire
+		(pts
+			(xy 191.77 29.21) (xy 115.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1090cf-a40c-4d10-8658-1e000818c112")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 41.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d89253-ab43-45fd-94ad-e30d4fa03294")
+	)
+	(wire
+		(pts
+			(xy 198.12 55.88) (xy 204.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1673d5a-becd-47b7-b7aa-daae63592197")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cce166-d0af-439e-bd21-c7bcccf46c0b")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 191.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ba6d17-5f08-4f1e-a7bc-b12c3ae422d2")
+	)
+	(wire
+		(pts
+			(xy 115.57 29.21) (xy 95.25 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d234a000-0d41-48b0-a0bc-ec4ea1e3d8a7")
+	)
+	(wire
+		(pts
+			(xy 74.93 53.34) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8db5a5e-1f15-4b0f-99eb-e692f2cc9c22")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 41.91 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49931f1-e745-4efe-8d41-ef8ff49357c0")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 198.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e508d7c3-169c-4922-8de2-ad4e867bddd3")
+	)
+	(wire
+		(pts
+			(xy 176.53 55.88) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8529f30-039e-469f-9f07-cc2b211f12c8")
+	)
+	(wire
+		(pts
+			(xy 115.57 29.21) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7b5058-df05-4700-960d-2b00cbd5bd94")
+	)
+	(wire
+		(pts
+			(xy 36.83 53.34) (xy 36.83 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efbfb9f0-4a45-4527-bd20-c60e26f52a4a")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 74.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b66bbd-4ad7-4332-8971-d81496949d0b")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f79acc55-db3a-4dd4-8cfb-2a885d04011b")
+	)
+	(wire
+		(pts
+			(xy 26.67 29.21) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9af004d-c2dc-41fd-89c2-e3812ef5f901")
+	)
+	(hierarchical_label "carry out"
+		(shape output)
+		(at 204.47 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dcdb090-1cee-4f51-bae8-1386a4905321")
+	)
+	(hierarchical_label "carry in"
+		(shape input)
+		(at 26.67 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35442840-16b1-4892-929f-55eb1c96a9d8")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 204.47 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d8b2f6c-1c20-48b2-b9cd-80d6e7bff0b5")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 26.67 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9264650c-1034-4e6e-9e04-c3a270ec058b")
+	)
+	(hierarchical_label "digit 2"
+		(shape input)
+		(at 26.67 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5e12201-9102-4610-8444-b5d32ba86225")
+	)
+	(hierarchical_label "digit 1"
+		(shape input)
+		(at 26.67 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3479079-5f0e-4fe5-80f0-1f448a63a3e1")
+	)
+	(hierarchical_label "sum"
+		(shape output)
+		(at 204.47 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc2f66a6-2831-470e-9118-e9907df5e8a6")
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G08")
+		(at 71.12 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c89c8ab-c351-4c86-91dd-ccbd77aec7d0")
+		(property "Reference" "U8"
+			(at 83.82 74.8598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G08"
+			(at 83.82 77.3998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b8979d16-748f-4452-900d-d898df9ca90b")
+		)
+		(pin "5"
+			(uuid "28c36dec-f0bf-4b86-8920-6087b2b8c511")
+		)
+		(pin "1"
+			(uuid "1869ef25-7cdb-48fb-a292-1570cfe03480")
+		)
+		(pin "2"
+			(uuid "4546fcb5-6739-43f0-85f4-21d0c666bee9")
+		)
+		(pin "3"
+			(uuid "3b5018b9-c189-4ca4-8849-4f0143784ab2")
+		)
+		(instances
+			(project "ALU"
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/25b31354-6f63-4654-a3ba-d65f87d447f7"
+					(reference "U23")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/2f235669-540e-4743-ab90-c808f76303a6"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/9a7bf304-d98b-4aa0-891c-30d0b5b65ec1"
+					(reference "U8")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/f46992d1-4e4f-470a-8fcb-983c45f7d65f"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G86")
+		(at 95.25 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a5a54ef-c491-4f01-b3de-212eac98f523")
+		(property "Reference" "U9"
+			(at 107.95 35.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G86"
+			(at 107.95 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a85a4263-97ca-415b-985e-af70117543a3")
+		)
+		(pin "4"
+			(uuid "849c1e58-9971-4161-bc98-04752c46f239")
+		)
+		(pin "1"
+			(uuid "23cd7f9f-2cff-491a-b5e9-3b6c0fd7c1ac")
+		)
+		(pin "3"
+			(uuid "ef939f09-9581-4046-8d94-a36167de7dd2")
+		)
+		(pin "5"
+			(uuid "0880beb6-7d06-4788-82eb-294453f1e77d")
+		)
+		(instances
+			(project "ALU"
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/25b31354-6f63-4654-a3ba-d65f87d447f7"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/2f235669-540e-4743-ab90-c808f76303a6"
+					(reference "U19")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/9a7bf304-d98b-4aa0-891c-30d0b5b65ec1"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/f46992d1-4e4f-470a-8fcb-983c45f7d65f"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G08")
+		(at 115.57 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "661d3896-7e80-4eb7-a2e2-a8c17d566ba2")
+		(property "Reference" "U10"
+			(at 128.27 49.4598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G08"
+			(at 128.27 51.9998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3928abb0-0533-46f4-b647-1f98f7635f89")
+		)
+		(pin "5"
+			(uuid "12a491e0-3b67-4cb9-a8ab-9a0abb9c4202")
+		)
+		(pin "1"
+			(uuid "ba11dfd1-94c4-4bce-98f9-6740fc7d55f8")
+		)
+		(pin "2"
+			(uuid "0ee30d58-afd3-47bb-be25-137974004f12")
+		)
+		(pin "3"
+			(uuid "f43fb38c-f382-4c0d-8a01-8d50e6de201d")
+		)
+		(instances
+			(project "ALU"
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/25b31354-6f63-4654-a3ba-d65f87d447f7"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/2f235669-540e-4743-ab90-c808f76303a6"
+					(reference "U20")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/9a7bf304-d98b-4aa0-891c-30d0b5b65ec1"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/f46992d1-4e4f-470a-8fcb-983c45f7d65f"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G32")
+		(at 191.77 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69944013-e16e-4947-9579-0fc535f15f3c")
+		(property "Reference" "U11"
+			(at 204.47 53.2698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G32"
+			(at 204.47 55.8098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single OR Gate, Low-Voltage CMOS"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "66887645-88c7-43a8-9cfd-4477a1caba4b")
+		)
+		(pin "1"
+			(uuid "3d864c12-6253-4ff0-a5e9-a76cd3f15217")
+		)
+		(pin "2"
+			(uuid "a57a65ed-f0cc-4c11-852d-96288d8a6b79")
+		)
+		(pin "3"
+			(uuid "196a8639-ac05-4c6d-9e92-9338fe994019")
+		)
+		(pin "5"
+			(uuid "2518bb2b-1d2a-43f7-b102-e31bd6cd7599")
+		)
+		(instances
+			(project "ALU"
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/25b31354-6f63-4654-a3ba-d65f87d447f7"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/2f235669-540e-4743-ab90-c808f76303a6"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/9a7bf304-d98b-4aa0-891c-30d0b5b65ec1"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/f46992d1-4e4f-470a-8fcb-983c45f7d65f"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AHC1G86")
+		(at 57.15 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d020bdc-3691-4015-83e3-2e3b3b4a0021")
+		(property "Reference" "U7"
+			(at 69.85 32.9498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHC1G86"
+			(at 69.85 35.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single XOR Gate, Low-Voltage CMOS"
+			(at 57.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79ede805-d56f-45e1-8c8a-ec0ada571af9")
+		)
+		(pin "4"
+			(uuid "c474b7d3-0c86-4f03-848a-ca0c210aef50")
+		)
+		(pin "1"
+			(uuid "f8e04763-3851-46a1-875e-4204afed0023")
+		)
+		(pin "3"
+			(uuid "3a4c51fe-b345-4a7c-95ec-6b7f5fcdcda8")
+		)
+		(pin "5"
+			(uuid "3c22046a-095f-4ffe-95ea-5a9811ca35e3")
+		)
+		(instances
+			(project "ALU"
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/25b31354-6f63-4654-a3ba-d65f87d447f7"
+					(reference "U22")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/2f235669-540e-4743-ab90-c808f76303a6"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/9a7bf304-d98b-4aa0-891c-30d0b5b65ec1"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/9962270f-3f57-44d4-8412-b1c8abf7a503/f46992d1-4e4f-470a-8fcb-983c45f7d65f"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
