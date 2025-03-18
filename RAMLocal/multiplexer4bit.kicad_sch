@@ -1,0 +1,872 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3da9f679-d66a-4335-8c07-6351fa8be836")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74LVC1G08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G08"
+				(at 7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "andGate:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single AND Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Gate AND LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G08_0_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G08_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 207.01 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a8e5d73-c0a6-4a66-bc2e-6ed8744f60ba")
+	)
+	(junction
+		(at 179.07 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fd39bc-b098-4406-8c48-bd1e4122a205")
+	)
+	(junction
+		(at 234.95 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc045cde-bd5b-4210-b7b7-f8c09efc8973")
+	)
+	(junction
+		(at 198.12 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db1fad04-e3f8-4a49-983a-db9c1d3d2293")
+	)
+	(wire
+		(pts
+			(xy 234.95 77.47) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f58516e-6c73-44ae-8152-a53e97345147")
+	)
+	(wire
+		(pts
+			(xy 179.07 49.53) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217ecb24-85f4-498e-b845-c7eb770c1d0b")
+	)
+	(wire
+		(pts
+			(xy 167.64 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249009e6-5641-4919-8658-beea42f32090")
+	)
+	(wire
+		(pts
+			(xy 234.95 77.47) (xy 234.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3242258b-42e0-4ef0-b296-2f6679900efe")
+	)
+	(wire
+		(pts
+			(xy 194.31 59.69) (xy 194.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38437fa3-04dd-4b16-a34b-9008acdc4665")
+	)
+	(wire
+		(pts
+			(xy 207.01 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fe7fb9-2a4d-43d1-bd30-5bcd8fee9f36")
+	)
+	(wire
+		(pts
+			(xy 194.31 76.2) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2f85b0-3cb1-44fd-954d-f39524aeebce")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "918cb24b-1754-417a-b96a-332cbea66594")
+	)
+	(wire
+		(pts
+			(xy 179.07 97.79) (xy 207.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9609b7cc-ef2f-4caa-aaa1-30903ddc374e")
+	)
+	(wire
+		(pts
+			(xy 198.12 49.53) (xy 179.07 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4e84c1-1dc7-4e90-96ec-abea6cd220ce")
+	)
+	(wire
+		(pts
+			(xy 179.07 54.61) (xy 179.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f25d12-b05b-4c00-9744-819b26effca0")
+	)
+	(wire
+		(pts
+			(xy 198.12 77.47) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6714e7d-4f54-4024-a3cb-bdfb32641182")
+	)
+	(wire
+		(pts
+			(xy 238.76 77.47) (xy 234.95 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c1685d-371b-44af-bf5f-30da3e69a5cd")
+	)
+	(wire
+		(pts
+			(xy 207.01 49.53) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec47b2a5-e798-440c-a43c-9b643a51a755")
+	)
+	(wire
+		(pts
+			(xy 207.01 77.47) (xy 198.12 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edebe188-7294-4f3c-a40f-a416e82a4be8")
+	)
+	(wire
+		(pts
+			(xy 234.95 69.85) (xy 207.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e81dca-5800-4299-ab89-e47e9baf7b77")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 167.64 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "049149c4-7aeb-4f2f-9231-920c8416db7c")
+	)
+	(hierarchical_label "4"
+		(shape input)
+		(at 222.25 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c158fcf-53af-4139-8925-16642ac96ad8")
+	)
+	(hierarchical_label "Output"
+		(shape output)
+		(at 166.37 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26809cb4-3e68-4f68-86e0-c50194a69309")
+	)
+	(hierarchical_label "2"
+		(shape input)
+		(at 222.25 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "441f032d-effe-4d56-adb2-0b438800dbc0")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 238.76 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f4f58ec-940a-4b75-8c91-e5b5a8a39288")
+	)
+	(hierarchical_label "1"
+		(shape input)
+		(at 222.25 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf928f4-c8cd-49cf-8473-424a257691e7")
+	)
+	(hierarchical_label "8"
+		(shape input)
+		(at 222.25 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4c50d30-5363-47e3-be13-ef69d8f9d55d")
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 207.01 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3ee3b6e-bf5a-4444-815f-4001b47f6e6f")
+		(property "Reference" "U86"
+			(at 210.1281 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 210.1281 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "andGate:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d60f44fe-674f-482e-90cf-54799bbbd5d6")
+		)
+		(pin "2"
+			(uuid "20942a4b-b6b6-43d8-8d10-11b1724319a5")
+		)
+		(pin "1"
+			(uuid "e94d0703-9791-4605-9292-6d82916b0357")
+		)
+		(pin "4"
+			(uuid "2685cfa3-3551-44bc-93ad-2bd39e37a752")
+		)
+		(pin "3"
+			(uuid "3d8960a5-0143-410d-a6e0-6540171aa647")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/0067f460-706b-4b9b-9eaf-f181a827171b"
+					(reference "U87")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/01544882-adac-4c34-881d-5a126c69bbdc"
+					(reference "U97")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/30ed37f8-8b0e-408a-bff8-ee5584a67785"
+					(reference "U100")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/3a59c646-be6b-403b-9f27-bc67607449a5"
+					(reference "U101")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/4541b790-5b1f-4ca1-8afd-a7c325a4323e"
+					(reference "U94")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/690e868d-f48d-4a1b-9f28-0d7f93954451"
+					(reference "U88")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/70661f5b-6693-4f23-8988-4e06abb443bf"
+					(reference "U95")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/744f23b6-0148-431c-9f29-64839f982e85"
+					(reference "U92")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/85779c49-581d-4572-93ad-82f5ee9df7b7"
+					(reference "U86")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/94e951ef-e192-4c90-865d-f154ca5e9471"
+					(reference "U91")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/98238dd4-ec57-41b0-a22b-3399380933d7"
+					(reference "U99")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/a9539073-48ae-4fbd-bc07-13f493d1d844"
+					(reference "U90")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/beed1784-1ddb-4986-bda6-8899c17b6cb0"
+					(reference "U98")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/c9f5b81e-3de3-4708-b6b6-2b783da955ef"
+					(reference "U89")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/e16f2c7b-4fd2-4889-8f51-708374b16b35"
+					(reference "U96")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/fcd585c1-eb36-4a55-84e2-60cb3c9cff5c"
+					(reference "U93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 179.07 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc831a55-b6b2-4fa3-b509-8d77c9a097cf")
+		(property "Reference" "U70"
+			(at 182.1881 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 182.1881 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "andGate:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "21e88bab-626e-4afd-84e8-a00e83d40fd9")
+		)
+		(pin "2"
+			(uuid "27eb72c2-6871-49f1-8686-fea1708500e9")
+		)
+		(pin "1"
+			(uuid "c3719369-fddf-4898-b2a0-dc3a0f62d089")
+		)
+		(pin "4"
+			(uuid "1acef76f-e9a2-417d-ad7d-14b4136d02f5")
+		)
+		(pin "3"
+			(uuid "f437cdc7-16ad-4cbb-afcb-593fbc314853")
+		)
+		(instances
+			(project "to_ROMRAM_using_SWRegisters"
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/0067f460-706b-4b9b-9eaf-f181a827171b"
+					(reference "U71")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/01544882-adac-4c34-881d-5a126c69bbdc"
+					(reference "U81")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/30ed37f8-8b0e-408a-bff8-ee5584a67785"
+					(reference "U84")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/3a59c646-be6b-403b-9f27-bc67607449a5"
+					(reference "U85")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/4541b790-5b1f-4ca1-8afd-a7c325a4323e"
+					(reference "U78")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/690e868d-f48d-4a1b-9f28-0d7f93954451"
+					(reference "U72")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/70661f5b-6693-4f23-8988-4e06abb443bf"
+					(reference "U79")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/744f23b6-0148-431c-9f29-64839f982e85"
+					(reference "U76")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/85779c49-581d-4572-93ad-82f5ee9df7b7"
+					(reference "U70")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/94e951ef-e192-4c90-865d-f154ca5e9471"
+					(reference "U75")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/98238dd4-ec57-41b0-a22b-3399380933d7"
+					(reference "U83")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/a9539073-48ae-4fbd-bc07-13f493d1d844"
+					(reference "U74")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/beed1784-1ddb-4986-bda6-8899c17b6cb0"
+					(reference "U82")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/c9f5b81e-3de3-4708-b6b6-2b783da955ef"
+					(reference "U73")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/e16f2c7b-4fd2-4889-8f51-708374b16b35"
+					(reference "U80")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/fcd585c1-eb36-4a55-84e2-60cb3c9cff5c"
+					(reference "U77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G08")
+		(at 207.01 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0623e02-51ef-4dc6-8399-bf7f5911e0e1")
+		(property "Reference" "U54"
+			(at 210.1281 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC1G08"
+			(at 210.1281 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "andGate:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+			(at 207.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+			(at 207.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single AND Gate, Low-Voltage CMOS"
+			(at 207.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0eec0f9b-44a9-4834-b2ab-5a138fbc2b26")
+		)
+		(pin "2"
+			(uuid "24b01096-9564-4d6c-a505-2ced453b3270")
+		)
+		(pin "1"
+			(uuid "416d0e77-bc42-4f55-81b0-282eeed1ccda")
+		)
+		(pin "4"
+			(uuid "f554bc7a-2696-4df9-addd-691736e40281")
+		)
+		(pin "3"
+			(uuid "3a0fc7a5-5432-4a76-bb7c-9cdb51f5d6dc")
+		)
+		(instances
+			(project ""
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/0067f460-706b-4b9b-9eaf-f181a827171b"
+					(reference "U55")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/01544882-adac-4c34-881d-5a126c69bbdc"
+					(reference "U65")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/30ed37f8-8b0e-408a-bff8-ee5584a67785"
+					(reference "U68")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/3a59c646-be6b-403b-9f27-bc67607449a5"
+					(reference "U69")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/4541b790-5b1f-4ca1-8afd-a7c325a4323e"
+					(reference "U62")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/690e868d-f48d-4a1b-9f28-0d7f93954451"
+					(reference "U56")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/70661f5b-6693-4f23-8988-4e06abb443bf"
+					(reference "U63")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/744f23b6-0148-431c-9f29-64839f982e85"
+					(reference "U60")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/85779c49-581d-4572-93ad-82f5ee9df7b7"
+					(reference "U54")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/94e951ef-e192-4c90-865d-f154ca5e9471"
+					(reference "U59")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/98238dd4-ec57-41b0-a22b-3399380933d7"
+					(reference "U67")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/a9539073-48ae-4fbd-bc07-13f493d1d844"
+					(reference "U58")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/beed1784-1ddb-4986-bda6-8899c17b6cb0"
+					(reference "U66")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/c9f5b81e-3de3-4708-b6b6-2b783da955ef"
+					(reference "U57")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/e16f2c7b-4fd2-4889-8f51-708374b16b35"
+					(reference "U64")
+					(unit 1)
+				)
+				(path "/de79dc3d-acac-4a4f-93d2-25143d524f12/fcd585c1-eb36-4a55-84e2-60cb3c9cff5c"
+					(reference "U61")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
